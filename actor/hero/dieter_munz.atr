@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>specialist</FolderName>
+	<ActorName>Ehud Barak</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>ehud_barak_head.rsb</ModelFace>
+	<BlinkFaceName>ehud_barak_head_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\ehud_barak_n</KitPath>
+	<ModelName>ehud_barak.chr</ModelName>
+	<LOD2>ehud_barak_a.chr</LOD2>
+	<LOD3>ehud_barak_b.chr</LOD3>
+	<Weapon>5</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>4</Leadership>
+</ActorFile>

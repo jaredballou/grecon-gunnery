@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>us_hvyweapons</FolderName>
+	<ActorName>Dustin Byrd</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>icg_blk_cmo_09.rsb</ModelFace>
+	<BlinkFaceName>icg_blk_cmo_09_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_sup_blk_cmo_09.rsb</ActionFaceName>
+	<ShellFaceName>sface_sup_blk_cmo_09.rsb</ShellFaceName>
+	<KitPath>heavy-weapons-seal</KitPath>
+	<ModelName>ica_us_support.chr</ModelName>
+	<LOD2>ica_us_support_a.chr</LOD2>
+	<LOD3>ica_us_support_b.chr</LOD3>
+	<Weapon>2</Weapon>
+	<Stamina>1</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>1</Leadership>
+</ActorFile>

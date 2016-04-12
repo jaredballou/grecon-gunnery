@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>demolitions</FolderName>
+	<ActorName>Bill Jordan</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>icg_blk_cmo_07.rsb</ModelFace>
+	<BlinkFaceName>icg_blk_cmo_07_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_demo_blk_cmo_07.rsb</ActionFaceName>
+	<ShellFaceName>sface_demo_blk_cmo_07.rsb</ShellFaceName>
+	<KitPath>demolitions-seal</KitPath>
+	<ModelName>ica_us_demolition.chr</ModelName>
+	<LOD2>ica_us_demolition_a.chr</LOD2>
+	<LOD3>ica_us_demolition_b.chr</LOD3>
+	<Weapon>1</Weapon>
+	<Stamina>1</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>1</Leadership>
+</ActorFile>

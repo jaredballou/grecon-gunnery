@@ -1,0 +1,6 @@
+// Mods Contents
+NAME        "Gunnery"
+AUTHOR      "Your Mother"
+SUPPORT     "www.poopdeck.org/gunnery"
+VERSION     "0.16"
+MULTIPLAYER "Server-Client"

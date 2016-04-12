@@ -1,0 +1,23 @@
+<ProjectileFile>
+   <VersionNumber>2.000000</VersionNumber>
+   <NameToken>WPN_M67</NameToken>
+   <ModelFileName>iw_grenade_fragm67.qob</ModelFileName>
+   <Weight>100</Weight>
+   <AirResistanceConstant>0</AirResistanceConstant>
+   <DetonateOnImpact>0</DetonateOnImpact>
+   <DelayTime>30</DelayTime>
+   <ExplosionDataVersion>1</ExplosionDataVersion>
+   <VisualExplosionType>1</VisualExplosionType>
+   <IsDirectional>FALSE</IsDirectional>
+	<InitialVelocity>3000</InitialVelocity>
+	<DamageThroughWalls>30.0</DamageThroughWalls>
+   <BlastRadius>30.000000</BlastRadius>
+   <CombatCoefficient>
+      <CombatCoefficientIndex>0</CombatCoefficientIndex>
+      <CombatCoefficientV0>930.571</CombatCoefficientV0>
+      <CombatCoefficientV1>-1.02543</CombatCoefficientV1>
+      <CombatCoefficientV2>0.000328571</CombatCoefficientV2>
+      <CombatCoefficientK1>0.5</CombatCoefficientK1>
+      <CombatCoefficientK2>0.002</CombatCoefficientK2>
+   </CombatCoefficient>
+</ProjectileFile>

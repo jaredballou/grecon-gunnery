@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>1</ArmorLevel>
+	<ActorName>@MP_atr_snip</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>icg_asn_snp_01_desert.rsb</ModelFace>
+	<BlinkFaceName>icg_asn_snp_01_blink_desert.rsb</BlinkFaceName>
+	<DesertModelFace>icg_asn_snp_01_desert.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_asn_snp_01_blink_desert.tsb</DesertBlinkFace>
+      <JungleModelFace>icg_asn_cmo_03_cuba.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_asn_cmo_03_blink_cuba.rsb</JungleBlinkFace>
+	<KitPath>sniper-seal</KitPath>
+	<ModelName>ica_us_sniper_desert.chr</ModelName>
+	<LOD2>ica_us_sniper_a_desert.chr</LOD2>
+	<LOD3>ica_us_sniper_b_desert.chr</LOD3>
+	<DesertLOD1>ica_us_sniper_desert.chr</DesertLOD1>
+	<DesertLOD2>ica_us_sniper_a_desert.chr</DesertLOD2>
+	<DesertLOD3>ica_us_sniper_b_desert.chr</DesertLOD3>
+	<JungleLOD1>ica_us_sniper_cuba.chr</JungleLOD1>
+	<JungleLOD2>ica_us_sniper_a_cuba.chr</JungleLOD2>
+	<JungleLOD3>ica_us_sniper_b_cuba.chr</JungleLOD3>
+	<Weapon>4</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>5</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

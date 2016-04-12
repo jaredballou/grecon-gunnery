@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<ActorName>@MP_atr_sup</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>icg_asn_cmo_05_desert.rsb</ModelFace>
+	<BlinkFaceName>icg_asn_cmo_05_blink_desert.rsb</BlinkFaceName>
+	<DesertModelFace>icg_asn_cmo_05_desert.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_asn_cmo_05_blink_desert.rsb</DesertBlinkFace>
+      <JungleModelFace>icg_asn_cmo_05_cuba.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_asn_cmo_05_blink_cuba.rsb</JungleBlinkFace>
+	<KitPath>heavy-weapons-seal</KitPath>
+	<ModelName>ica_us_support_desert.chr</ModelName>
+	<LOD2>ica_us_support_a_desert.chr</LOD2>
+	<LOD3>ica_us_support_b_desert.chr</LOD3>
+	<DesertLOD1>us_support_desert_6.chr</DesertLOD1>
+	<DesertLOD2>us_support_desert_6.chr</DesertLOD2>
+	<DesertLOD3>us_support_desert_6.chr</DesertLOD3>
+	<JungleLOD1>ica_us_support_cuba.chr</JungleLOD1>
+	<JungleLOD2>ica_us_support_a_cuba.chr</JungleLOD2>
+	<JungleLOD3>ica_us_support_b_cuba.chr</JungleLOD3>
+	<Weapon>4</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>3</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

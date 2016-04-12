@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>specialists</FolderName>
+	<ActorName>Jared Ballou</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>jared_ballou_face.rsb</ModelFace>
+	<BlinkFaceName>jared_ballou_face_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_jared_ballou.rsb</ActionFaceName>
+	<ShellFaceName>sface_jared_ballou.rsb</ShellFaceName>
+	<ModelName>jared_ballou.chr</ModelName>
+	<LOD2>jared_ballou_a.chr</LOD2>
+	<LOD3>jared_ballou_b.chr</LOD3>
+	<KitPath>hero\jared_ballou</KitPath>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+</ActorFile>

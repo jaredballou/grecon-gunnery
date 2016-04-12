@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<ActorName>@MP_atr_rif</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_asn_cmo_04_desert.rsb</ModelFace>
+	<BlinkFaceName>icg_asn_cmo_04_blink_desert.rsb</BlinkFaceName>
+	<DesertModelFace>icg_asn_cmo_04_desert.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_asn_cmo_04_blink_desert.rsb</DesertBlinkFace>
+      <JungleModelFace>icg_asn_cmo_04_cuba.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_asn_cmo_04_blink_cuba.rsb</JungleBlinkFace>
+	<KitPath>rifleman-seal</KitPath>
+	<ModelName>ica_us_rifleman_desert.chr</ModelName>
+	<LOD2>ica_us_rifleman_a_desert.chr</LOD2>
+	<LOD3>ica_us_rifleman_b_desert.chr</LOD3>
+	<DesertLOD1>6_rifleman_desert.chr</DesertLOD1>
+	<DesertLOD2>6_rifleman_desert.chr</DesertLOD2>
+	<DesertLOD3>6_rifleman_desert.chr</DesertLOD3>
+	<JungleLOD1>ica_us_rifleman_cuba.chr</JungleLOD1>
+	<JungleLOD2>ica_us_rifleman_a_cuba.chr</JungleLOD2>
+	<JungleLOD3>ica_us_rifleman_b_cuba.chr</JungleLOD3>
+	<Weapon>5</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>3</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

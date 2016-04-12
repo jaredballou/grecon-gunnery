@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<ActorName>@MP_atr_demo</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>hrt_face_01.rsb</ModelFace>
+	<BlinkFaceName>hrt_face_01_blink.rsb</BlinkFaceName>
+	<DesertModelFace>hrt_face_01.rsb</DesertModelFace>
+	<DesertBlinkFace>hrt_face_01_blink.rsb</DesertBlinkFace>
+	<JungleModelFace>hrt_face_01.rsb</JungleModelFace>
+	<JungleBlinkFace>hrt_face_01_blink.rsb</JungleBlinkFace>
+	<KitPath>demolitions-seal</KitPath>
+	<ModelName>lars_weber.chr</ModelName>
+	<LOD2>lars_weber_a.chr</LOD2>
+	<LOD3>lars_weber_b.chr</LOD3>
+	<DesertLOD1>jorg_beck_desert.chr</DesertLOD1>
+	<DesertLOD2>jorg_beck_des_a_desert.chr</DesertLOD2>
+	<DesertLOD3>jorg_beck_des_b_desert.chr</DesertLOD3>
+	<JungleLOD1>lars_weber.chr</JungleLOD1>
+	<JungleLOD2>lars_weber_a.chr</JungleLOD2>
+	<JungleLOD3>lars_weber_b.chr</JungleLOD3>
+	<Weapon>4</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>3</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

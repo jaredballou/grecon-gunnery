@@ -1,0 +1,65 @@
+<GunFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ModelFileName>lmg_bren.qob</ModelFileName>
+	<NameToken>WPN_BREN</NameToken>
+	<Weight>10.15</Weight>
+	<MagazineCapacity>28</MagazineCapacity>
+	<MagazineWeight>0.32648</MagazineWeight>
+	<MaxRange>615.696</MaxRange>
+	<VelocityCoefficient0>731</VelocityCoefficient0>
+	<VelocityCoefficient1>-0.842265</VelocityCoefficient1>
+	<VelocityCoefficient2>0.001120</VelocityCoefficient2>
+	<KillCoefficient1>1.009051</KillCoefficient1>
+	<KillCoefficient2>0.006934</KillCoefficient2>
+	<ProjectileCount>1</ProjectileCount>
+	<ProjectileSpread>0</ProjectileSpread>
+	<ReticuleTextureName>reticle_ar.rsb</ReticuleTextureName>
+	<ReticulePipLeft>33</ReticulePipLeft>
+	<ReticulePipTop>0</ReticulePipTop>
+	<ReticulePipRight>37</ReticulePipRight>
+	<ReticulePipBottom>2</ReticulePipBottom>
+	<ReticuleBaseLeft>0</ReticuleBaseLeft>
+	<ReticuleBaseTop>0</ReticuleBaseTop>
+	<ReticuleBaseRight>32</ReticuleBaseRight>
+	<ReticuleBaseBottom>32</ReticuleBaseBottom>
+	<ReticulePipBaseOffset>3</ReticulePipBaseOffset>
+	<ReticulePipMaxOffset>240</ReticulePipMaxOffset>
+	<Selective>
+		<SelectiveOption RateOfFire = "500" RoundsPerPull = "1" StartSound = "w_bren_ss.wav"/>
+		<SelectiveOption RateOfFire = "500" IsFullAuto = "1" StartSound = "w_bren_sf.wav" EndSound = "w_bren_ss.wav"/>
+	</Selective>
+	<Recoil>111.25</Recoil>
+	<RunStandAccuracy>100</RunStandAccuracy>
+	<RunCrouchAccuracy>90</RunCrouchAccuracy>
+	<RunProneAccuracy>80</RunProneAccuracy>
+	<WalkStandAccuracy>20</WalkStandAccuracy>
+	<WalkCrouchAccuracy>23</WalkCrouchAccuracy>
+	<WalkProneAccuracy>73</WalkProneAccuracy>
+	<ShuffleStandAccuracy>12</ShuffleStandAccuracy>
+	<ShuffleCrouchAccuracy>17</ShuffleCrouchAccuracy>
+	<ShuffleProneAccuracy>20</ShuffleProneAccuracy>
+	<StationaryStandAccuracy>3</StationaryStandAccuracy>
+	<StationaryCrouchAccuracy>3</StationaryCrouchAccuracy>
+	<StationaryProneAccuracy>0</StationaryProneAccuracy>
+
+	<TurnBandVelocity1>0.75</TurnBandVelocity1>
+	<TurnBandMultiplier1>2.25</TurnBandMultiplier1>
+	<TurnBandVelocity2>2</TurnBandVelocity2>
+	<TurnBandMultiplier2>12</TurnBandMultiplier2>
+	<TurnBandVelocity3>4</TurnBandVelocity3>
+	<TurnBandMultiplier3>24</TurnBandMultiplier3>
+	<TurnBandVelocity4>10</TurnBandVelocity4>
+	<TurnBandMultiplier4>65</TurnBandMultiplier4>
+	<TurnBandVelocity5>100000</TurnBandVelocity5>
+	<TurnBandMultiplier5>225</TurnBandMultiplier5>
+	<StabilizationTime>0.118</StabilizationTime>
+	<WeaponMotionType>1</WeaponMotionType>
+	<HasUnderbarrelWeapon>0</HasUnderbarrelWeapon>
+	<Silenced>0</Silenced>
+	<ZoomSettings>
+		<Zoom>1</Zoom>
+		<Zoom>2</Zoom>
+	</ZoomSettings>
+	<MuzzleFlashScale>2</MuzzleFlashScale>
+	<TracerFrequency>5</TracerFrequency>
+</GunFile>

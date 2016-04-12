@@ -1,0 +1,902 @@
+<MissionFile>
+	<VersionNumber>2.000000</VersionNumber>
+	<Shell>
+		<Environment>m05_embassy.env</Environment>
+		<MapShots>m05_embassy_shots.rsb</MapShots>
+		<MapName>M05 Embassy</MapName>
+		<MapNameId>22020097</MapNameId>
+		<RecommendedGameTypes>12 to 24</RecommendedGameTypes>
+		<RecommendedGameTypesID>22020113</RecommendedGameTypesID>
+		<MapSize>2</MapSize>
+		<Name>M05 - Fisheye</Name>
+		<SinglePlayer>1</SinglePlayer>
+		<GameTypes>1</GameTypes>
+		<Coop>1</Coop>
+		<RequiresUnlocking>0</RequiresUnlocking>
+		<Points>1</Points>
+		<Bases>1</Bases>
+		<CentralArea>1</CentralArea>
+		<Recon>1</Recon>
+		<AssaultZones>1</AssaultZones>
+	</Shell>
+	<Engine>
+		<Wind>0.5</Wind>
+		<LocationText>Tbilisi, Republic of Georgia</LocationText>
+		<LocationId>22020099</LocationId>
+		<DateText>May 14, 2008</DateText>
+		<DateId>22020100</DateId>
+		<TimeText>09:00</TimeText>
+		<TimeId>22020101</TimeId>
+		<BriefingWaveFile/>
+		<BriefingText>Time to get the hell out of Dodge - intel says Russian troops have reached the city limits.  The rest of our people have already been evac'ed - you gentlemen are the absolute tip of the Dachshund's tail.  The Navy is running a shuttle between our embassy and the U.S.S. Ronald Reagan out in the Black Sea.  Two hours from now the last Seahawk will leave the embassy's roof - you'd better be on it.{p}On the way there there's one thing we want you to check out.  The Russians brought down one of our Seahawks on the last run - hit it with a man-portable SAM before it reached the embassy.  It crashed in a park just north of your position.  We haven't received any communication from the crew - no voice, no beacon - probably there are no survivors.  But your orders are to check out the wreckage and make sure.{p}Be on the look out for Russian patrols.  And watch out for Georgian civilians as well - there are plenty of refugees in the streets and we want to keep collateral damage to a minimum.</BriefingText>
+		<BriefingId>22020102</BriefingId>
+		<BriefingCycleImage>m05_brfg-box.rsb</BriefingCycleImage>
+		<BriefingImage>brfg_map-01.rsb</BriefingImage>
+		<BriefingImageX>161</BriefingImageX>
+		<BriefingImageY>184</BriefingImageY>
+		<WeatherIndex>0</WeatherIndex>
+		<HeroFile/>
+		<Class0>1</Class0>
+		<Class1>1</Class1>
+		<Class2>1</Class2>
+		<Class3>3</Class3>
+		<Class5>2</Class5>
+		<CombatPoints>2</CombatPoints>
+		<Units>
+			<Company IgorId = "2" ScriptId = "1" Name = "Friendlies" Allied = "1">
+				<Platoon IgorId = "14" ScriptId = "13" Name = "Platoon - Pilot">
+					<Team IgorId = "39" ScriptId = "38" Name = "Team - Pilot">
+						<Actor IgorId = "40" ScriptId = "39" Name = "Pilot" File = "pilot_1ver.atr" Kit = "noweapon.kit" Pos = "-42.52;84.90;4.00;"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "291" ScriptId = "163" Name = "Platoon - Refugees">
+					<Team IgorId = "292" ScriptId = "59" Name = "Team - Refugees 1">
+						<Actor IgorId = "298" ScriptId = "170" Name = "Refugee 1" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "-3.15;-204.65;6.00;" Facing = "3.18" Easy = "0" Hidden = "1"/>
+					</Team>
+					<Team IgorId = "293" ScriptId = "60" Name = "Team - Refugees 2">
+						<Actor IgorId = "299" ScriptId = "171" Name = "Refugee 2" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "40.30;-100.77;5.30;" Easy = "0" Hidden = "1"/>
+					</Team>
+					<Team IgorId = "294" ScriptId = "61" Name = "Team - Refugees 3">
+						<Actor IgorId = "300" ScriptId = "172" Name = "Refugee 3" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "34.59;-81.15;3.00;" Hidden = "1"/>
+					</Team>
+					<Team IgorId = "295" ScriptId = "167" Name = "Team - Refugees 4">
+						<Actor IgorId = "301" ScriptId = "173" Name = "Refugee 4" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "152.15;-103.65;0.00;" Facing = "3.18" Easy = "0" Normal = "0" Hidden = "1"/>
+					</Team>
+					<Team IgorId = "296" ScriptId = "168" Name = "Team - Refugees 5">
+						<Actor IgorId = "303" ScriptId = "175" Name = "Refugee 5" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "94.05;55.95;1.50;" Hidden = "1"/>
+					</Team>
+					<Team IgorId = "297" ScriptId = "169" Name = "Team - Refugees 6">
+						<Actor IgorId = "302" ScriptId = "174" Name = "Refugee 6" File = "youngman_refugee_1.atr" Kit = "noweapon.kit" Pos = "10.95;15.35;0.00;" Hidden = "1"/>
+					</Team>
+				</Platoon>
+			</Company>
+			<Company IgorId = "3" ScriptId = "2" Name = "Enemies">
+				<Platoon IgorId = "4" ScriptId = "3" Name = "Platoon - Embassy">
+					<Team IgorId = "24" ScriptId = "23" Name = "Team - Embassy 1">
+						<Actor IgorId = "26" ScriptId = "25" Name = "Embassy 1A" File = "m05_rec_ak74_5.atr" Kit = "ak47 and cigarette.kit" Pos = "82.73;-48.72;-0.10;" Idle = "1"/>
+						<Actor IgorId = "27" ScriptId = "26" Name = "Embassy 1B" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "68.32;-47.23;-0.10;" Facing = "4.13" Idle = "6" Easy = "0"/>
+						<Actor IgorId = "28" ScriptId = "27" Name = "Embassy 1C" File = "m05_rec_ak74_2.atr" Kit = "ak74 only.kit" Pos = "54.54;-52.68;0.00;" Facing = "5.89" Idle = "13" Easy = "0" Normal = "0"/>
+					</Team>
+					<Team IgorId = "25" ScriptId = "24" Name = "Team - Embassy 2">
+						<Actor IgorId = "29" ScriptId = "28" Name = "Embassy 2A" File = "m05_rec_ak74_3.atr" Kit = "ak74 only.kit" Pos = "93.72;-41.48;0.10;" Idle = "12"/>
+						<Actor IgorId = "30" ScriptId = "29" Name = "Embassy 2B" File = "m05_rec_ak74_4.atr" Kit = "ak74 only.kit" Pos = "120.99;-60.81;0.04;" Facing = "1.91" Idle = "14" Easy = "0"/>
+					</Team>
+					<Team IgorId = "238" ScriptId = "123" Name = "Team - Embassy Roof">
+						<Actor IgorId = "239" ScriptId = "124" Name = "Embassy Roof 1" File = "m05_rec_ak74_5.atr" Kit = "ak74 only.kit" Pos = "125.26;-33.16;11.40;" Lvl = "1" Facing = "3.10"/>
+						<Actor IgorId = "240" ScriptId = "125" Name = "Embassy Roof 2" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "131.63;-43.67;10.00;" Lvl = "1" Facing = "3.76"/>
+						<Actor IgorId = "241" ScriptId = "126" Name = "Embassy Roof 3" File = "m05_vet_ak74_2.atr" Kit = "ak74_1 grenade.kit" Pos = "131.53;-23.28;10.00;" Lvl = "1" Facing = "2.58" Easy = "0"/>
+						<Actor IgorId = "242" ScriptId = "127" Name = "Embassy Roof 4" File = "m05_rec_ak74gl_3.atr" Kit = "ak74gl.kit" Pos = "142.80;-50.14;10.00;" Lvl = "1" Facing = "4.70" Easy = "0" Normal = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "5" ScriptId = "4" Name = "Platoon - Patrol 1">
+					<Team IgorId = "41" ScriptId = "40" Name = "Team - Patrol 1" Plan = "45">
+						<Actor IgorId = "43" ScriptId = "42" Name = "Patrol 1A" File = "m05_rec_ak74_5.atr" Kit = "ak74 only.kit" Pos = "43.74;-192.57;4.36;" Facing = "5.85" Easy = "0"/>
+						<Actor IgorId = "44" ScriptId = "43" Name = "Patrol 1B" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "44.59;-189.64;4.13;" Facing = "5.68" Easy = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "6" ScriptId = "5" Name = "Platoon - Patrol 2">
+					<Team IgorId = "42" ScriptId = "41" Name = "Team - Patrol 2" Plan = "49">
+						<Actor IgorId = "47" ScriptId = "44" Name = "Patrol 2B" File = "m05_rec_ak74_3.atr" Kit = "ak74 only.kit" Pos = "58.52;58.42;1.40;" Easy = "0"/>
+						<Actor IgorId = "48" ScriptId = "45" Name = "Patrol 2A" File = "m05_rec_ak74_2.atr" Kit = "ak74 only.kit" Pos = "58.21;62.76;1.40;"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "7" ScriptId = "6" Name = "Platoon - Sniper">
+					<Team IgorId = "51" ScriptId = "46" Name = "Team - Sniper" Plan = "53">
+						<Actor IgorId = "52" ScriptId = "47" Name = "Sniper" File = "m05_vet_sniper_1.atr" Kit = "dragunov only.kit" Pos = "82.35;47.41;7.41;" Lvl = "1" Facing = "2.80"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "8" ScriptId = "7" Name = "Platoon - Park">
+					<Team IgorId = "31" ScriptId = "30" Name = "Team - Park 1" Plan = "355">
+						<Actor IgorId = "33" ScriptId = "32" Name = "Park 1A" File = "m05_rec_ak74_4.atr" Kit = "ak74_1 grenade.kit" Pos = "5.94;83.74;3.90;" Facing = "0.29"/>
+						<Actor IgorId = "34" ScriptId = "33" Name = "Park 1B" File = "m05_rec_ak74_5.atr" Kit = "ak74_1 grenade.kit" Pos = "2.33;85.57;3.90;"/>
+						<Actor IgorId = "35" ScriptId = "34" Name = "Park 1C" File = "m05_rec_ak74_1.atr" Kit = "ak74_1 grenade.kit" Pos = "3.20;88.57;3.90;" Facing = "1.44" Easy = "0"/>
+					</Team>
+					<Team IgorId = "32" ScriptId = "31" Name = "Team - Park 2" Plan = "371">
+						<Actor IgorId = "36" ScriptId = "35" Name = "Park 2A" File = "m05_rec_ak74_2.atr" Kit = "ak74_1 grenade.kit" Pos = "5.21;68.27;3.90;"/>
+						<Actor IgorId = "37" ScriptId = "36" Name = "Park 2B" File = "m05_rec_ak74_3.atr" Kit = "ak74_1 grenade.kit" Pos = "1.47;70.10;3.90;" Facing = "5.32"/>
+						<Actor IgorId = "38" ScriptId = "37" Name = "Park 2C" File = "m05_rec_ak74_4.atr" Kit = "ak74_1 grenade.kit" Pos = "5.77;72.44;3.90;" Facing = "4.90" Easy = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "9" ScriptId = "8" Name = "Platoon - Tank Support">
+					<Team IgorId = "56" ScriptId = "49" Name = "Team - Tank Support 1">
+						<Actor IgorId = "58" ScriptId = "51" Name = "Tank Support 1A" File = "m05_rec_ak74gl_4.atr" Kit = "ak74gl.kit" Pos = "-54.72;30.03;3.90;" Easy = "0"/>
+						<Actor IgorId = "59" ScriptId = "52" Name = "Tank Support 1B" File = "m05_rec_ak74gl_5.atr" Kit = "ak74gl.kit" Pos = "-51.32;30.11;4.00;" Easy = "0"/>
+						<Actor IgorId = "60" ScriptId = "53" Name = "Tank Support 1C" File = "m05_rec_ak74gl_1.atr" Kit = "ak74gl.kit" Pos = "-57.25;30.10;3.90;" Easy = "0" Normal = "0"/>
+					</Team>
+					<Team IgorId = "57" ScriptId = "50" Name = "Team - Tank Support 2">
+						<Actor IgorId = "62" ScriptId = "55" Name = "Tank Support 2A" File = "m05_rec_ak74gl_2.atr" Kit = "ak74gl.kit" Pos = "-52.41;30.07;3.90;" Easy = "0"/>
+						<Actor IgorId = "63" ScriptId = "56" Name = "Tank Support 2B" File = "m05_rec_ak74gl_3.atr" Kit = "ak74gl.kit" Pos = "-53.70;30.04;3.90;" Easy = "0"/>
+						<Actor IgorId = "64" ScriptId = "57" Name = "Tank Support 2C" File = "m05_rec_ak74gl_4.atr" Kit = "ak74gl.kit" Pos = "-55.82;30.07;3.90;" Easy = "0" Normal = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "10" ScriptId = "9" Name = "Platoon - Bank">
+					<Team IgorId = "15" ScriptId = "14" Name = "Team - Bank 1">
+						<Actor IgorId = "17" ScriptId = "16" Name = "Bank 1A" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "33.24;-167.59;5.30;" Facing = "4.77" Idle = "14"/>
+						<Actor IgorId = "18" ScriptId = "17" Name = "Bank 1B" File = "m05_rec_rpk_2.atr" Kit = "rpk74.kit" Pos = "36.13;-168.56;5.30;" Facing = "4.23" Idle = "13"/>
+						<Actor IgorId = "19" ScriptId = "18" Name = "Bank 1C" File = "m05_rec_rpk_3.atr" Kit = "rpk74.kit" Pos = "28.89;-164.04;5.30;" Facing = "0.75" Idle = "12" Easy = "0"/>
+						<Actor IgorId = "20" ScriptId = "19" Name = "Bank 1D" File = "m05_rec_ak74_4.atr" Kit = "ak74 only.kit" Pos = "30.78;-163.99;5.30;" Facing = "4.43" Idle = "11" Easy = "0"/>
+						<Actor IgorId = "23" ScriptId = "22" Name = "Bank 1E" File = "m05_eli_rpk_5.atr" Kit = "rpk74.kit" Pos = "39.75;-151.18;5.30;" Facing = "5.80" Idle = "17"/>
+					</Team>
+					<Team IgorId = "16" ScriptId = "15" Name = "Team - Bank 2" Plan = "104">
+						<Actor IgorId = "21" ScriptId = "20" Name = "Bank 2A" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "46.36;-171.46;11.30;" Lvl = "1" Facing = "4.66"/>
+					</Team>
+					<Team IgorId = "116" ScriptId = "84" Name = "Team - Bank 3" Plan = "118">
+						<Actor IgorId = "22" ScriptId = "21" Name = "Bank 3A" File = "m05_rec_ak74_2.atr" Kit = "ak74 only.kit" Pos = "22.73;-171.49;11.30;" Lvl = "1" Facing = "4.70"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "124" ScriptId = "85" Name = "Platoon - Patrol 3">
+					<Team IgorId = "125" ScriptId = "86" Name = "Team - Patrol 3A">
+						<Actor IgorId = "127" ScriptId = "88" Name = "Patrol 3A 1" File = "m05_rec_rpk_4.atr" Kit = "rpk74 and grenades.kit" Pos = "82.43;-123.70;-4.06;"/>
+						<Actor IgorId = "128" ScriptId = "89" Name = "Patrol 3A 3" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "87.04;-125.64;-4.06;" Easy = "0"/>
+						<Actor IgorId = "129" ScriptId = "90" Name = "Patrol 3A 2" File = "m05_rec_ak74_5.atr" Kit = "ak74 only.kit" Pos = "86.56;-122.00;-4.06;"/>
+					</Team>
+					<Team IgorId = "126" ScriptId = "87" Name = "Team - Patrol 3B">
+						<Actor IgorId = "130" ScriptId = "91" Name = "Patrol 3B 1" File = "m05_rec_ak74gl_2.atr" Kit = "ak74gl.kit" Pos = "117.19;-160.40;-0.10;"/>
+						<Actor IgorId = "131" ScriptId = "92" Name = "Patrol 3B 3" File = "m05_rec_ak74_4.atr" Kit = "ak74 only.kit" Pos = "112.33;-158.46;-0.10;"/>
+						<Actor IgorId = "132" ScriptId = "93" Name = "Patrol 3B 2" File = "m05_rec_ak74_3.atr" Kit = "ak74 only.kit" Pos = "113.30;-162.35;-0.10;" Easy = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "139" ScriptId = "96" Name = "Platoon - Reinforcements">
+					<Team IgorId = "140" ScriptId = "97" Name = "Team - Reinforcements 1">
+						<Actor IgorId = "61" ScriptId = "54" Name = "Reinforcements 1A" File = "m05_rec_ak74gl_5.atr" Kit = "ak74gl.kit" Pos = "50.32;80.65;4.00;"/>
+						<Actor IgorId = "142" ScriptId = "99" Name = "Reinforcements 1B" File = "m05_rec_ak74_1.atr" Kit = "ak74 only.kit" Pos = "50.39;82.12;4.00;" Easy = "0"/>
+						<Actor IgorId = "143" ScriptId = "100" Name = "Reinforcements 1C" File = "m05_rec_ak74_2.atr" Kit = "ak74 only.kit" Pos = "50.46;83.59;4.00;" Easy = "0" Normal = "0"/>
+					</Team>
+					<Team IgorId = "141" ScriptId = "98" Name = "Team - Reinforcements 2">
+						<Actor IgorId = "65" ScriptId = "58" Name = "Reinforcements 2A" File = "m05_rec_ak74gl_3.atr" Kit = "ak74gl.kit" Pos = "50.63;89.30;4.00;"/>
+						<Actor IgorId = "144" ScriptId = "101" Name = "Reinforcements 2B" File = "m05_rec_ak74_4.atr" Kit = "ak74 only.kit" Pos = "50.63;87.93;4.00;" Easy = "0"/>
+						<Actor IgorId = "145" ScriptId = "102" Name = "Reinforcements 2C" File = "m05_rec_ak74_5.atr" Kit = "ak74 only.kit" Pos = "50.70;86.75;4.00;" Easy = "0" Normal = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "223" ScriptId = "118" Name = "Platoon - Sniper Revenge">
+					<Team IgorId = "224" ScriptId = "119" Name = "Team - Sniper Revenge">
+						<Actor IgorId = "225" ScriptId = "120" Name = "Sniper Revenge 1" File = "m05_rec_ak74_2.atr" Kit = "ak74 only.kit" Pos = "98.14;36.51;7.41;" Lvl = "1" Facing = "3.93"/>
+						<Actor IgorId = "226" ScriptId = "121" Name = "Sniper Revenge 2" File = "m05_rec_ak74_3.atr" Kit = "ak74 only.kit" Pos = "95.51;33.65;7.41;" Lvl = "1" Facing = "0.81" Easy = "0"/>
+					</Team>
+				</Platoon>
+				<Platoon IgorId = "233" ScriptId = "122" Name = "Platoon - Bank 2">
+					<Team IgorId = "211" ScriptId = "117" Name = "Team - Bank 5">
+						<Actor IgorId = "210" ScriptId = "116" Name = "Bank 5A" File = "m05_rec_ak74gl_4.atr" Kit = "ak74gl.kit" Pos = "42.27;-160.22;11.30;" Lvl = "1" Facing = "3.14" Easy = "0"/>
+					</Team>
+					<Team IgorId = "208" ScriptId = "114" Name = "Team - Bank 4">
+						<Actor IgorId = "209" ScriptId = "115" Name = "Bank 4A" File = "m05_rec_ak74_3.atr" Kit = "ak47 and beercan.kit" Pos = "34.46;-154.69;11.30;" Lvl = "1" Facing = "4.71" Idle = "3" Easy = "0"/>
+					</Team>
+				</Platoon>
+				<Vehicle IgorId = "55" ScriptId = "48" Name = "Tank" File = "t80.vcl" Pos = "-67.92;29.28;3.90;" Facing = "6.28" Hidden = "1"/>
+			</Company>
+		</Units>
+		<ZoneList>
+			<Zone IgorId = "1" ScriptId = "0" Name = "Insertion Zone" Pos0 = "-2.25;-258.09;8.10;" Pos1 = "22.10;-268.58;0.00;" Facing = "1.45" Insertion = "1" Extraction = "1"/>
+			<Zone IgorId = "106" ScriptId = "74" Name = "Map Point 00" Pos0 = "1.65;-269.81;7.88;" Pos1 = "13.03;-274.63;7.25;" Facing = "1.48" Point = "0"/>
+			<Zone IgorId = "107" ScriptId = "75" Name = "Map Point 01" Pos0 = "-9.56;12.92;4.00;" Pos1 = "-3.65;4.05;4.00;" Facing = "0.24" Point = "1"/>
+			<Zone IgorId = "108" ScriptId = "76" Name = "Map Point 02" Pos0 = "-39.08;117.95;4.00;" Pos1 = "-32.90;111.44;3.90;" Facing = "6.19" Point = "2"/>
+			<Zone IgorId = "110" ScriptId = "78" Name = "Map Point 04" Pos0 = "108.11;-40.66;0.10;" Pos1 = "111.14;-43.69;0.10;" Facing = "0.08" Point = "4"/>
+			<Zone IgorId = "111" ScriptId = "79" Name = "Map Point 05" Pos0 = "85.51;-117.95;-4.06;" Pos1 = "84.76;-120.01;-4.06;" Facing = "4.83" Point = "5"/>
+			<Zone IgorId = "112" ScriptId = "80" Name = "Map Point 06" Pos0 = "-4.33;-170.92;6.58;" Pos1 = "-2.83;-169.46;6.56;" Point = "6"/>
+			<Zone IgorId = "113" ScriptId = "81" Name = "Map Point 07" Pos0 = "62.06;94.14;1.40;" Pos1 = "74.90;78.92;1.40;" Facing = "4.68" Point = "7"/>
+			<Zone IgorId = "133" ScriptId = "94" Name = "Continue Patrol Zone" Pos0 = "128.13;-168.55;0.00;" Pos1 = "105.52;-149.10;4.00;"/>
+			<Zone IgorId = "138" ScriptId = "95" Name = "Zone - Crash Site" Type = "1" Pos0 = "-33.41;85.03;4.55;" Pos1 = "-24.40;71.90;4.05;"/>
+			<Zone IgorId = "156" ScriptId = "103" Name = "Wind Zone 1" Pos0 = "-71.31;-149.20;0.00;" Pos1 = "67.00;-280.53;3.71;" Sound = "1" EnvTag = "28"/>
+			<Zone IgorId = "157" ScriptId = "104" Name = "Wind Zone 2" Pos0 = "-74.00;-115.61;0.00;" Pos1 = "58.16;-155.00;3.90;" Sound = "1" EnvTag = "27"/>
+			<Zone IgorId = "158" ScriptId = "105" Name = "Wind Zone 3" Pos0 = "63.63;-152.35;-49.01;" Pos1 = "154.70;-173.94;-4.00;" Sound = "1" EnvTag = "28"/>
+			<Zone IgorId = "159" ScriptId = "106" Name = "Wind Zone 4" Pos0 = "130.21;-14.65;0.39;" Pos1 = "146.12;-52.33;10.60;" Sound = "1" EnvTag = "30"/>
+			<Zone IgorId = "160" ScriptId = "107" Name = "Wind Zone 5" Pos0 = "56.90;21.18;-49.01;" Pos1 = "154.20;-105.41;0.82;" Sound = "1" EnvTag = "28"/>
+			<Zone IgorId = "161" ScriptId = "108" Name = "Wind Zone 6" Pos0 = "124.74;-25.72;0.40;" Pos1 = "141.98;-41.68;10.00;" Sound = "1" EnvTag = "30"/>
+			<Zone IgorId = "162" ScriptId = "109" Name = "Wind Zone 7" Pos0 = "-110.43;120.20;0.00;" Pos1 = "58.91;-119.97;-4.06;" Sound = "1" EnvTag = "28"/>
+			<Zone IgorId = "163" ScriptId = "110" Name = "Wind Zone 8" Pos0 = "52.83;121.55;0.00;" Pos1 = "166.85;15.63;-4.00;" Sound = "1" EnvTag = "27"/>
+			<Zone IgorId = "190" ScriptId = "111" Name = "Wind Zone 9" Pos0 = "101.87;-101.47;0.82;" Pos1 = "129.67;-160.82;0.00;" Sound = "1" EnvTag = "27"/>
+			<Zone IgorId = "191" ScriptId = "112" Name = "Sound Zone 1" Pos0 = "59.66;-90.73;-49.01;" Pos1 = "92.39;-106.46;0.00;" Sound = "1" EnvTag = "20"/>
+			<Zone IgorId = "206" ScriptId = "113" Name = "Sound Zone 2" Pos0 = "-40.08;-151.36;28.05;" Pos1 = "-35.06;-196.96;0.00;" Sound = "1" EnvTag = "33"/>
+			<Zone IgorId = "252" ScriptId = "128" Name = "Map Point 08" Pos0 = "-38.37;-212.65;8.08;" Pos1 = "-37.05;-211.46;8.07;" Point = "8"/>
+			<Zone IgorId = "253" ScriptId = "129" Name = "Map Point 09" Pos0 = "-37.72;-173.09;9.00;" Pos1 = "-36.54;-175.15;9.00;" Point = "9"/>
+			<Zone IgorId = "254" ScriptId = "130" Name = "Map Point 10" Pos0 = "-46.81;-142.05;8.00;" Pos1 = "-46.07;-141.50;8.00;" Point = "10"/>
+			<Zone IgorId = "255" ScriptId = "131" Name = "Map Point 11" Pos0 = "-27.11;-126.15;8.00;" Pos1 = "-25.48;-127.48;8.00;" Facing = "4.76" Point = "11"/>
+			<Zone IgorId = "256" ScriptId = "132" Name = "Map Point 12" Pos0 = "40.41;-163.64;5.30;" Pos1 = "39.97;-163.79;5.30;" Point = "12"/>
+			<Zone IgorId = "257" ScriptId = "133" Name = "Map Point 13" Pos0 = "35.18;-168.38;5.30;" Pos1 = "34.73;-167.79;5.30;" Point = "13"/>
+			<Zone IgorId = "258" ScriptId = "134" Name = "Map Point 14" Pos0 = "39.68;-150.67;5.30;" Pos1 = "40.41;-150.52;5.30;" Point = "14"/>
+			<Zone IgorId = "259" ScriptId = "135" Name = "Map Point 15" Pos0 = "39.88;-145.65;5.30;" Pos1 = "39.29;-146.53;5.30;" Point = "15"/>
+			<Zone IgorId = "260" ScriptId = "136" Name = "Map Point 16" Pos0 = "23.65;-152.73;8.30;" Pos1 = "24.73;-153.62;8.30;" Point = "16"/>
+			<Zone IgorId = "261" ScriptId = "137" Name = "Map Point 17" Pos0 = "38.98;-98.27;5.30;" Pos1 = "38.39;-97.83;5.30;" Point = "17"/>
+			<Zone IgorId = "262" ScriptId = "138" Name = "Map Point 18" Pos0 = "19.99;-71.85;0.00;" Pos1 = "21.61;-73.62;0.00;" Facing = "5.41" Point = "18"/>
+			<Zone IgorId = "263" ScriptId = "139" Name = "Map Point 19" Pos0 = "93.54;-143.29;-1.69;" Pos1 = "93.08;-144.39;-1.44;" Facing = "4.35" Point = "19"/>
+			<Zone IgorId = "264" ScriptId = "140" Name = "Map Point 20" Pos0 = "138.20;-162.03;0.00;" Pos1 = "139.09;-163.95;0.00;" Facing = "3.09" Point = "20"/>
+			<Zone IgorId = "265" ScriptId = "141" Name = "Map Point 21" Pos0 = "-3.68;-206.21;6.00;" Pos1 = "-4.42;-204.29;6.00;" Facing = "2.70" Point = "21"/>
+			<Zone IgorId = "266" ScriptId = "142" Name = "Map Point 22" Pos0 = "1.84;-195.58;6.00;" Pos1 = "0.66;-195.29;6.00;" Point = "22"/>
+			<Zone IgorId = "267" ScriptId = "143" Name = "Map Point 23" Pos0 = "41.00;-211.82;4.81;" Pos1 = "40.41;-211.23;4.89;" Point = "23"/>
+			<Zone IgorId = "268" ScriptId = "144" Name = "Map Point 24" Pos0 = "2.26;-214.17;6.00;" Pos1 = "1.52;-214.03;6.00;" Point = "24"/>
+			<Zone IgorId = "269" ScriptId = "145" Name = "Map Point 25" Pos0 = "25.06;-211.08;6.00;" Pos1 = "23.87;-210.49;6.00;" Point = "25"/>
+			<Zone IgorId = "270" ScriptId = "146" Name = "Map Point 26" Pos0 = "92.87;59.08;1.50;" Pos1 = "90.71;58.36;1.50;" Facing = "2.90" Point = "26"/>
+			<Zone IgorId = "271" ScriptId = "147" Name = "Map Point 27" Pos0 = "86.60;-17.37;-0.10;" Pos1 = "84.19;-22.18;-0.10;" Facing = "4.06" Point = "27"/>
+			<Zone IgorId = "272" ScriptId = "148" Name = "Map Point 28" Pos0 = "54.08;-52.41;0.00;" Pos1 = "53.36;-54.10;0.00;" Point = "28"/>
+			<Zone IgorId = "273" ScriptId = "149" Name = "Map Point 29" Pos0 = "138.68;-12.26;0.18;" Pos1 = "137.30;-13.65;0.31;" Point = "29"/>
+			<Zone IgorId = "274" ScriptId = "150" Name = "Map Point 30" Pos0 = "-14.29;88.71;4.90;" Pos1 = "-17.65;91.36;4.93;" Facing = "4.66" Point = "30"/>
+			<Zone IgorId = "275" ScriptId = "151" Name = "Map Point 31" Pos0 = "141.03;-57.00;0.34;" Pos1 = "139.70;-58.45;0.22;" Point = "31"/>
+			<Zone IgorId = "276" ScriptId = "152" Name = "Map Point 32" Pos0 = "153.32;-57.76;0.00;" Pos1 = "150.94;-58.91;0.00;" Facing = "4.51" Point = "32"/>
+			<Zone IgorId = "277" ScriptId = "153" Name = "Map Point 33" Pos0 = "123.27;-122.24;-0.10;" Pos1 = "120.91;-124.46;-0.10;" Facing = "4.51" Point = "33"/>
+			<Zone IgorId = "278" ScriptId = "154" Name = "Map Point 34" Pos0 = "-16.69;-261.45;8.10;" Pos1 = "-17.73;-262.51;8.10;" Point = "34"/>
+			<Zone IgorId = "279" ScriptId = "155" Name = "Map Point 35" Pos0 = "32.82;-249.24;7.00;" Pos1 = "34.01;-247.17;7.00;" Facing = "1.22" Point = "35"/>
+			<Zone IgorId = "280" ScriptId = "156" Name = "Map Central Area" Pos0 = "109.04;-42.41;0.10;" Pos1 = "94.77;-60.24;0.10;" CentralArea = "1"/>
+			<Zone IgorId = "281" ScriptId = "157" Name = "Map Base 0" Pos0 = "33.92;-32.85;0.00;" Pos1 = "19.17;-17.84;0.00;" Base = "0"/>
+			<Zone IgorId = "282" ScriptId = "158" Name = "Map Base 1" Pos0 = "124.35;-153.05;-0.10;" Pos1 = "110.50;-166.61;0.00;" Facing = "1.61" Base = "1" CoopBase = "1"/>
+			<Zone IgorId = "283" ScriptId = "159" Name = "Map Base 2" Pos0 = "136.31;53.63;4.50;" Pos1 = "145.67;42.73;5.82;" Facing = "4.95" Base = "2"/>
+			<Zone IgorId = "284" ScriptId = "160" Name = "Map Base 3" Pos0 = "57.01;-131.85;4.23;" Pos1 = "40.30;-140.76;4.78;" Facing = "2.72" Base = "3"/>
+			<Zone IgorId = "285" ScriptId = "161" Name = "Map Recon Insertion" Pos0 = "0.82;-251.38;7.93;" Pos1 = "16.97;-270.75;7.04;" ReconIn = "1"/>
+			<Zone IgorId = "286" ScriptId = "162" Name = "Map Recon Extraction" Pos0 = "-60.53;114.29;4.00;" Pos1 = "-44.38;98.15;3.90;" ReconOut = "1"/>
+			<Zone IgorId = "310" ScriptId = "176" Name = "Ref 1 Zone" Pos0 = "-42.35;-192.15;29.34;" Pos1 = "5.05;-217.95;7.48;"/>
+			<Zone IgorId = "311" ScriptId = "177" Name = "Ref 2 Zone" Type = "1" Pos0 = "40.55;-99.85;5.30;" Pos1 = "49.95;-108.65;0.00;"/>
+			<Zone IgorId = "312" ScriptId = "178" Name = "Ref 3 Zone" Type = "1" Pos0 = "34.75;-80.49;3.00;" Pos1 = "50.35;-94.35;0.00;"/>
+			<Zone IgorId = "313" ScriptId = "179" Name = "Ref 4 Zone" Pos0 = "153.81;-110.75;-33.90;" Pos1 = "54.15;-98.75;0.00;"/>
+			<Zone IgorId = "314" ScriptId = "180" Name = "Ref 5 Zone" Pos0 = "101.05;49.05;7.41;" Pos1 = "56.65;87.05;3.40;"/>
+			<Zone IgorId = "315" ScriptId = "181" Name = "Ref 6 Zone" Type = "1" Pos0 = "11.05;15.45;0.00;" Pos1 = "19.65;-4.75;0.00;"/>
+			<Zone IgorId = "384" ScriptId = "12" Name = "Extraction Zone" Pos0 = "127.29;-27.49;11.40;" Pos1 = "140.29;-38.96;11.40;" Lvl = "1" Extraction = "1"/>
+			<Zone IgorId = "397" ScriptId = "186" Name = "Map Point 03" Pos0 = "133.57;-33.02;11.80;" Pos1 = "133.57;-33.02;11.80;" Lvl = "1" Point = "3"/>
+			<Zone IgorId = "399" ScriptId = "187" Name = "TR3A" Pos0 = "-24.37;-136.61;8.02;" Pos1 = "-10.89;-146.54;8.72;" Base = "13"/>
+			<Zone IgorId = "400" ScriptId = "188" Name = "TR3B" Pos0 = "1.89;-177.78;7.97;" Pos1 = "17.51;-191.98;6.45;" Base = "14"/>
+			<Zone IgorId = "401" ScriptId = "189" Name = "TR3C" Pos0 = "49.45;-175.65;3.89;" Pos1 = "61.52;-191.27;3.80;" Facing = "1.38" Base = "15"/>
+			<Zone IgorId = "402" ScriptId = "190" Name = "TR1A" Pos0 = "91.57;-114.63;-4.06;" Pos1 = "101.89;-124.07;-4.06;" Facing = "3.73" Base = "7"/>
+			<Zone IgorId = "403" ScriptId = "191" Name = "TR1B" Pos0 = "64.81;-136.17;-4.06;" Pos1 = "71.88;-147.67;-4.06;" Facing = "1.65" Base = "8"/>
+			<Zone IgorId = "404" ScriptId = "192" Name = "TR1C" Pos0 = "133.23;-155.93;0.00;" Pos1 = "145.03;-167.73;0.00;" Facing = "3.19" Base = "9"/>
+			<Zone IgorId = "405" ScriptId = "193" Name = "TR2A" Pos0 = "86.64;80.63;1.73;" Pos1 = "98.14;72.08;2.61;" Facing = "4.34" Base = "10"/>
+			<Zone IgorId = "406" ScriptId = "194" Name = "TR2B" Pos0 = "97.70;50.25;7.41;" Pos1 = "102.13;46.71;31.60;" Lvl = "1" Facing = "0.69" Base = "11"/>
+			<Zone IgorId = "407" ScriptId = "195" Name = "TR2C" Pos0 = "140.76;28.64;0.10;" Pos1 = "151.08;18.32;-0.05;" Facing = "4.04" Base = "12"/>
+			<Zone IgorId = "408" ScriptId = "196" Name = "TR0A" Pos0 = "-8.64;9.17;4.00;" Pos1 = "-3.33;3.27;4.00;" Base = "4"/>
+			<Zone IgorId = "409" ScriptId = "197" Name = "TR0B" Pos0 = "11.12;15.66;0.00;" Pos1 = "17.32;12.12;0.00;" Base = "5"/>
+			<Zone IgorId = "410" ScriptId = "198" Name = "TR0C" Pos0 = "0.36;-50.56;-0.10;" Pos1 = "8.32;-57.64;0.00;" Facing = "0.79" Base = "6"/>
+			<Zone IgorId = "411" ScriptId = "199" Name = "Assault 0a" Pos0 = "141.41;-93.99;0.00;" Pos1 = "152.74;-103.62;0.00;" Facing = "3.82" AssaultPlatoon = "0"/>
+			<Zone IgorId = "412" ScriptId = "200" Name = "Assault 0b" Pos0 = "54.11;-217.99;3.82;" Pos1 = "62.46;-227.85;3.66;" Facing = "1.52" AssaultPlatoon = "0"/>
+			<Zone IgorId = "413" ScriptId = "201" Name = "Assault 0c" Pos0 = "76.88;-97.29;-0.07;" Pos1 = "92.82;-104.12;0.00;" Facing = "6.08" AssaultPlatoon = "0"/>
+			<Zone IgorId = "414" ScriptId = "202" Name = "Assault 1a" Pos0 = "-0.55;-148.91;6.40;" Pos1 = "15.39;-157.26;6.60;" Facing = "0.21" AssaultPlatoon = "1"/>
+			<Zone IgorId = "415" ScriptId = "203" Name = "Assault 1b" Pos0 = "3.25;-223.68;7.62;" Pos1 = "13.88;-216.85;6.78;" Facing = "0.15" AssaultPlatoon = "1"/>
+			<Zone IgorId = "416" ScriptId = "204" Name = "Assault 1c" Pos0 = "92.82;-51.37;0.10;" Pos1 = "106.48;-60.48;0.14;" Facing = "6.20" AssaultPlatoon = "1"/>
+			<Zone IgorId = "417" ScriptId = "205" Name = "Assault 2a" Pos0 = "36.84;-3.39;-0.10;" Pos1 = "48.48;-15.21;-0.10;" Facing = "5.81" AssaultPlatoon = "2"/>
+			<Zone IgorId = "418" ScriptId = "206" Name = "Assault 2b" Pos0 = "10.34;-259.10;7.40;" Pos1 = "20.00;-269.68;7.00;" Facing = "1.19" AssaultPlatoon = "2"/>
+			<Zone IgorId = "419" ScriptId = "207" Name = "Assault 2c" Pos0 = "96.09;-2.59;0.00;" Pos1 = "110.25;-8.25;0.00;" Facing = "3.85" AssaultPlatoon = "2"/>
+		</ZoneList>
+		<PlanList>
+			<Plan IgorId = "45" ScriptId = "0" Name = "Plan - Patrol 1" Assigned = "1">
+				<Path Action = "2" IgorId = "46">
+					<Point Pos = "51.04;-191.68;3.87;"/>
+					<Point Pos = "52.88;-205.30;3.84;"/>
+					<Point Pos = "54.31;-220.72;3.82;"/>
+					<Point Pos = "44.44;-226.54;4.14;"/>
+					<Point Pos = "-7.29;-226.25;8.38;"/>
+					<Point Pos = "-18.43;-221.76;8.54;"/>
+					<Point Pos = "-15.72;-189.69;8.69;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "49" ScriptId = "1" Name = "Plan - Patrol 2" Assigned = "1">
+				<Path Action = "2" IgorId = "50">
+					<Point Pos = "66.59;58.26;1.40;"/>
+					<Point Pos = "65.03;106.97;1.43;"/>
+					<Point Pos = "-21.84;108.52;3.90;"/>
+					<Point Pos = "-20.60;60.43;3.90;"/>
+					<Point Pos = "7.64;51.13;4.00;"/>
+					<Point Pos = "8.88;16.07;0.00;"/>
+					<Point Pos = "47.66;-2.55;-0.10;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "53" ScriptId = "2" Name = "Plan - Sniper" Assigned = "1">
+				<MoveROE State = "2" IgorId = "391"/>
+				<Alertness Change = "1" State = "2" IgorId = "392"/>
+				<Cover Pos0 = "82.17;47.53;7.41;" Pos1 = "77.97;47.88;1.40;" Lvl = "1" IgorId = "393"/>
+			</Plan>
+			<Plan IgorId = "79" ScriptId = "3" Name = "Plan - Tank moves to Embassy">
+				<Wait Time = "7.00" IgorId = "398"/>
+				<Speed Rate = "2.50" IgorId = "80"/>
+				<Path IgorId = "83">
+					<Point Pos = "-58.26;31.33;3.90;"/>
+					<Point Pos = "-58.05;39.42;3.90;"/>
+					<Point Pos = "-54.43;60.11;3.90;"/>
+					<Point Pos = "18.93;62.52;3.90;"/>
+					<Point Pos = "69.16;56.94;1.40;"/>
+					<Point Pos = "72.76;14.41;-0.04;"/>
+					<Point Pos = "78.74;-35.00;-0.10;"/>
+					<Point Pos = "77.44;-70.57;-0.10;"/>
+					<Point Pos = "90.64;-76.27;-0.10;"/>
+					<Point Pos = "111.84;-70.47;-0.10;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "82" ScriptId = "4" Name = "Plan - Tank Support to Embassy">
+				<Pace Change = "1" Type = "2" IgorId = "103"/>
+				<Path IgorId = "361">
+					<Point Pos = "-51.03;51.47;4.00;"/>
+					<Point Pos = "59.06;51.32;1.50;"/>
+					<Point Pos = "70.43;50.25;1.40;"/>
+					<Point Pos = "71.85;41.73;1.33;"/>
+					<Point Pos = "73.98;-6.56;-0.10;"/>
+				</Path>
+				<Cover Pos0 = "75.04;-6.91;-0.10;" Pos1 = "75.04;-6.91;-0.10;" IgorId = "362"/>
+			</Plan>
+			<Plan IgorId = "85" ScriptId = "5" Name = "Plan - Bank Alert Team 1">
+				<MoveROE State = "2" IgorId = "122"/>
+				<Cover Pos0 = "34.59;-174.00;5.20;" Pos1 = "34.59;-176.87;5.05;" IgorId = "86"/>
+			</Plan>
+			<Plan IgorId = "104" ScriptId = "10" Name = "Gun 2" Assigned = "1">
+				<MoveROE State = "2" IgorId = "351"/>
+				<Alertness Change = "1" State = "2" IgorId = "352"/>
+				<Stance Change = "1" IgorId = "105"/>
+				<Cover Pos0 = "46.36;-171.85;11.30;" Pos1 = "46.28;-176.20;4.00;" Lvl = "1" IgorId = "380"/>
+			</Plan>
+			<Plan IgorId = "118" ScriptId = "11" Name = "Gun 1" Assigned = "1">
+				<MoveROE State = "2" IgorId = "353"/>
+				<Alertness Change = "1" State = "2" IgorId = "354"/>
+				<Stance Change = "1" IgorId = "120"/>
+				<Cover Pos0 = "22.70;-172.00;11.30;" Pos1 = "22.78;-176.06;6.17;" Lvl = "1" IgorId = "379"/>
+			</Plan>
+			<Plan IgorId = "134" ScriptId = "12" Name = "Plan - Half Patrol 1">
+				<Path IgorId = "136">
+					<Point Pos = "77.81;-123.82;-4.06;"/>
+					<Point Pos = "61.52;-123.58;-4.06;"/>
+					<Point Pos = "68.33;-82.98;-0.10;"/>
+					<Point Pos = "113.30;-85.41;-0.10;"/>
+					<Point Pos = "115.73;-154.94;-0.10;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "135" ScriptId = "13" Name = "Plan - Half Patrol 2">
+				<Path IgorId = "137">
+					<Point Pos = "107.71;-156.64;-0.10;"/>
+					<Point Pos = "93.12;-156.88;0.26;"/>
+					<Point Pos = "93.36;-151.05;-0.06;"/>
+					<Point Pos = "99.20;-129.65;-4.06;"/>
+					<Point Pos = "98.47;-123.09;-4.06;"/>
+					<Point Pos = "86.31;-123.82;-4.06;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "147" ScriptId = "14" Name = "Plan - Reinforcements 2">
+				<Alertness Change = "1" State = "2" IgorId = "374"/>
+				<Pace Change = "1" Type = "2" IgorId = "152"/>
+				<Path IgorId = "153">
+					<Point Pos = "54.65;85.64;4.00;"/>
+					<Point Pos = "63.36;86.39;1.40;"/>
+					<Point Pos = "64.10;100.32;1.40;"/>
+					<Point Pos = "56.39;106.04;1.47;"/>
+					<Point Pos = "17.83;107.53;3.90;"/>
+				</Path>
+				<Cover Pos0 = "18.08;107.78;3.90;" Pos1 = "13.85;106.79;3.90;" IgorId = "154"/>
+			</Plan>
+			<Plan IgorId = "148" ScriptId = "15" Name = "Plan - Reinforcements 1">
+				<Alertness Change = "1" State = "2" IgorId = "373"/>
+				<Pace Change = "1" Type = "2" IgorId = "149"/>
+				<Path IgorId = "150">
+					<Point Pos = "54.76;85.20;4.00;"/>
+					<Point Pos = "63.11;84.48;1.40;"/>
+					<Point Pos = "62.86;70.96;1.40;"/>
+					<Point Pos = "59.38;65.24;1.40;"/>
+					<Point Pos = "20.00;62.75;3.87;"/>
+				</Path>
+				<Cover Pos0 = "19.06;62.60;3.90;" Pos1 = "15.48;63.50;3.90;" IgorId = "151"/>
+			</Plan>
+			<Plan IgorId = "227" ScriptId = "18" Name = "Plan - Sniper's Revenge">
+				<MoveROE State = "2" IgorId = "364"/>
+				<Pace Change = "1" Type = "2" IgorId = "363"/>
+				<Path IgorId = "395">
+					<Point Pos = "95.88;36.14;7.41;" Lvl = "1"/>
+					<Point Pos = "90.38;41.83;7.41;" Lvl = "1"/>
+				</Path>
+				<Cover Pos0 = "90.01;42.20;7.41;" Pos1 = "84.55;46.86;7.41;" Lvl = "1" IgorId = "396"/>
+			</Plan>
+			<Plan IgorId = "243" ScriptId = "19" Name = "Plan - Park 2">
+				<Pace Type = "2" IgorId = "248"/>
+				<Path IgorId = "249">
+					<Point Pos = "-20.05;73.20;4.21;"/>
+					<Point Pos = "-19.16;75.57;4.51;"/>
+					<Point Pos = "-8.45;76.61;4.44;"/>
+				</Path>
+				<Cover Pos0 = "-7.18;75.74;4.36;" Pos1 = "-9.97;78.71;4.57;" IgorId = "250"/>
+			</Plan>
+			<Plan IgorId = "244" ScriptId = "20" Name = "Plan - Park 1">
+				<Pace Type = "2" IgorId = "245"/>
+				<Path IgorId = "246">
+					<Point Pos = "-22.72;96.68;4.35;"/>
+					<Point Pos = "-5.18;82.56;4.21;"/>
+				</Path>
+				<Cover Pos0 = "-17.59;84.94;5.00;" Pos1 = "-15.69;84.79;5.00;" IgorId = "247"/>
+			</Plan>
+			<Plan IgorId = "304" ScriptId = "21" Name = "Ref 1">
+				<MoveROE State = "2" IgorId = "316"/>
+				<Alertness Change = "1" State = "2" IgorId = "341"/>
+				<Pace Change = "1" Type = "2" IgorId = "317"/>
+				<Path IgorId = "318">
+					<Point Pos = "-5.35;-204.55;6.00;"/>
+					<Point Pos = "-15.15;-204.35;8.78;"/>
+					<Point Pos = "-16.95;-222.95;8.61;"/>
+					<Point Pos = "2.05;-233.95;7.79;"/>
+					<Point Pos = "2.45;-266.85;7.84;"/>
+					<Point Pos = "-9.85;-266.05;8.10;"/>
+					<Point Pos = "-9.55;-261.05;8.10;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "305" ScriptId = "22" Name = "Ref 2">
+				<MoveROE State = "2" IgorId = "320"/>
+				<Alertness Change = "1" State = "2" IgorId = "342"/>
+				<Pace Change = "1" Type = "2" IgorId = "321"/>
+				<Path IgorId = "322">
+					<Point Pos = "42.30;-100.67;5.30;"/>
+					<Point Pos = "42.03;-139.93;4.68;"/>
+					<Point Pos = "52.50;-141.41;3.90;"/>
+					<Point Pos = "52.42;-226.05;3.85;"/>
+					<Point Pos = "35.09;-230.58;5.38;"/>
+					<Point Pos = "14.38;-233.01;7.06;"/>
+					<Point Pos = "10.78;-258.64;7.38;"/>
+					<Point Pos = "0.81;-266.33;7.93;"/>
+					<Point Pos = "-10.71;-266.62;8.10;"/>
+					<Point Pos = "-11.01;-261.31;8.10;"/>
+				</Path>
+				<Stance Change = "1" Type = "1" IgorId = "323"/>
+			</Plan>
+			<Plan IgorId = "306" ScriptId = "23" Name = "Ref 3">
+				<MoveROE State = "2" IgorId = "324"/>
+				<Alertness Change = "1" State = "2" IgorId = "343"/>
+				<Pace Change = "1" Type = "2" IgorId = "325"/>
+				<Path IgorId = "326">
+					<Point Pos = "37.85;-78.29;3.00;"/>
+					<Point Pos = "117.18;-78.49;-0.10;"/>
+					<Point Pos = "117.37;-156.45;-0.10;"/>
+					<Point Pos = "53.75;-159.08;3.90;"/>
+					<Point Pos = "52.09;-227.99;3.86;"/>
+					<Point Pos = "13.06;-230.49;7.02;"/>
+					<Point Pos = "13.70;-251.73;7.22;"/>
+					<Point Pos = "-3.04;-266.53;8.10;"/>
+					<Point Pos = "-16.57;-268.06;8.10;"/>
+					<Point Pos = "-15.37;-260.41;8.10;"/>
+				</Path>
+				<Stance Change = "1" Type = "1" IgorId = "327"/>
+			</Plan>
+			<Plan IgorId = "307" ScriptId = "24" Name = "Ref 4">
+				<MoveROE State = "2" IgorId = "328"/>
+				<Alertness Change = "1" State = "2" IgorId = "344"/>
+				<Pace Change = "1" Type = "2" IgorId = "329"/>
+				<Path IgorId = "330">
+					<Point Pos = "148.72;-102.74;0.00;"/>
+					<Point Pos = "117.84;-105.80;-0.10;"/>
+					<Point Pos = "79.04;-105.03;0.00;"/>
+					<Point Pos = "71.13;-94.06;-0.04;"/>
+					<Point Pos = "66.28;-94.31;0.00;"/>
+					<Point Pos = "63.86;-117.67;-4.06;"/>
+					<Point Pos = "76.27;-147.20;-4.06;"/>
+				</Path>
+				<Stance Change = "1" Type = "1" IgorId = "331"/>
+			</Plan>
+			<Plan IgorId = "308" ScriptId = "25" Name = "Ref 5">
+				<MoveROE State = "2" IgorId = "332"/>
+				<Alertness Change = "1" State = "2" IgorId = "345"/>
+				<Pace Change = "1" Type = "2" IgorId = "333"/>
+				<Path IgorId = "334">
+					<Point Pos = "91.75;58.63;1.50;"/>
+					<Point Pos = "84.86;65.01;1.50;"/>
+					<Point Pos = "71.85;62.97;1.40;"/>
+					<Point Pos = "64.19;24.17;0.17;"/>
+					<Point Pos = "11.48;-40.91;-0.10;"/>
+					<Point Pos = "6.89;-58.65;0.00;"/>
+					<Point Pos = "27.05;-78.81;3.00;"/>
+					<Point Pos = "38.54;-78.05;3.00;"/>
+					<Point Pos = "64.83;-79.32;-0.10;"/>
+					<Point Pos = "65.08;-124.75;-4.06;"/>
+					<Point Pos = "101.07;-124.24;-4.06;"/>
+					<Point Pos = "100.81;-135.73;-3.40;"/>
+					<Point Pos = "90.09;-159.46;0.52;"/>
+					<Point Pos = "52.45;-157.93;3.90;"/>
+					<Point Pos = "52.45;-137.00;4.13;"/>
+					<Point Pos = "-46.58;-141.34;8.00;"/>
+					<Point Pos = "-49.35;-143.97;8.00;"/>
+				</Path>
+				<Stance Change = "1" Type = "1" IgorId = "335"/>
+			</Plan>
+			<Plan IgorId = "309" ScriptId = "26" Name = "Ref 6">
+				<MoveROE State = "2" IgorId = "336"/>
+				<Alertness Change = "1" State = "2" IgorId = "346"/>
+				<Pace Change = "1" Type = "2" IgorId = "337"/>
+				<Path IgorId = "338">
+					<Point Pos = "8.14;15.73;0.00;"/>
+					<Point Pos = "8.91;104.81;3.90;"/>
+					<Point Pos = "65.06;104.81;1.42;"/>
+					<Point Pos = "82.41;80.56;1.50;"/>
+					<Point Pos = "110.23;79.03;3.18;"/>
+					<Point Pos = "133.46;56.57;4.40;"/>
+					<Point Pos = "135.25;43.81;4.72;"/>
+					<Point Pos = "145.20;33.34;0.10;"/>
+					<Point Pos = "116.87;-30.46;0.20;"/>
+					<Point Pos = "114.32;-73.09;-0.10;"/>
+					<Point Pos = "114.70;-158.46;-0.10;"/>
+					<Point Pos = "53.96;-160.50;3.90;"/>
+					<Point Pos = "52.94;-182.96;3.84;"/>
+					<Point Pos = "-24.53;-180.92;8.11;"/>
+					<Point Pos = "-26.57;-157.11;7.97;"/>
+					<Point Pos = "-30.91;-152.59;8.00;"/>
+					<Point Pos = "-35.12;-156.04;9.00;"/>
+					<Point Pos = "-35.25;-175.31;9.00;"/>
+					<Point Pos = "-37.70;-175.31;9.00;"/>
+				</Path>
+				<Stance Change = "1" Type = "1" IgorId = "339"/>
+			</Plan>
+			<Plan IgorId = "355" ScriptId = "27" Name = "Plan - Park Patrol 1" Assigned = "1">
+				<Formation Change = "1" Type = "2" IgorId = "357"/>
+				<Path Action = "2" IgorId = "356">
+					<Point Pos = "4.77;85.74;3.90;"/>
+					<Point Pos = "4.77;106.34;3.90;"/>
+					<Point Pos = "-48.23;105.74;3.90;"/>
+					<Point Pos = "-48.23;66.14;3.90;"/>
+					<Point Pos = "4.17;65.34;3.90;"/>
+				</Path>
+			</Plan>
+			<Plan IgorId = "371" ScriptId = "28" Name = "Plan - Patrol Park 2" Assigned = "1">
+				<Path Action = "2" IgorId = "372">
+					<Point Pos = "5.77;65.74;3.90;"/>
+					<Point Pos = "-21.03;66.94;3.90;"/>
+					<Point Pos = "-21.83;76.34;4.61;"/>
+					<Point Pos = "-10.03;78.94;4.58;"/>
+					<Point Pos = "-10.63;92.14;4.62;"/>
+					<Point Pos = "-19.43;97.14;4.29;"/>
+					<Point Pos = "-20.03;102.74;3.90;"/>
+					<Point Pos = "-23.63;107.74;3.90;"/>
+					<Point Pos = "-49.63;106.94;3.90;"/>
+					<Point Pos = "-50.43;64.94;3.90;"/>
+					<Point Pos = "8.17;61.54;3.90;"/>
+					<Point Pos = "7.17;105.54;3.90;"/>
+					<Point Pos = "-24.03;104.34;3.90;"/>
+					<Point Pos = "-23.83;96.14;4.42;"/>
+					<Point Pos = "-13.23;88.74;4.83;"/>
+					<Point Pos = "-13.63;81.54;4.85;"/>
+					<Point Pos = "-24.03;77.34;4.73;"/>
+					<Point Pos = "-24.83;62.94;3.90;"/>
+				</Path>
+			</Plan>
+		</PlanList>
+		<WaypointList>
+			<Waypoint IgorId = "98" Pos = "-21.27;85.49;5.00;" Action = "4" Text = "Park" TextId = "22020107"/>
+			<Waypoint IgorId = "287" Pos = "34.83;-161.11;5.30;" Action = "4" Text = "Bank" TextId = "22020108"/>
+			<Waypoint IgorId = "288" Pos = "34.83;-161.11;5.30;" Action = "5" Text = "Secure the Bank" TextId = "22020109"/>
+			<Waypoint IgorId = "289" Pos = "-21.17;85.89;5.00;" Action = "6" Text = "Investigate Crash Site" TextId = "22020110"/>
+			<Waypoint IgorId = "386" Pos = "133.60;-33.16;11.80;" Lvl = "1" Action = "7" Text = "Go to Extraction Zone" TextId = "22020111"/>
+			<Waypoint IgorId = "387" Pos = "73.13;-36.73;-0.10;" Action = "8" Text = "Avoid Civilian Casualties" TextId = "22020112"/>
+		</WaypointList>
+		<SoundList>
+			<Sound IgorId = "164" File = "e_pebbles.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "42.86;-128.18;5.31;">
+				<Point Pos = "42.62;-120.46;5.31;"/>
+				<Point Pos = "42.34;-113.91;5.30;"/>
+				<Point Pos = "42.64;-105.10;5.30;"/>
+				<Point Pos = "39.66;-98.24;5.30;"/>
+				<Point Pos = "39.80;-93.31;5.30;"/>
+			</Sound>
+			<Sound IgorId = "166" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "9.69;-61.42;0.01;">
+				<Point Pos = "13.05;-65.35;0.01;"/>
+				<Point Pos = "22.78;-74.48;0.41;"/>
+				<Point Pos = "16.95;-68.90;0.01;"/>
+				<Point Pos = "19.96;-71.86;0.01;"/>
+				<Point Pos = "42.30;-119.21;5.31;"/>
+				<Point Pos = "38.84;-100.10;5.30;"/>
+				<Point Pos = "25.49;-77.50;3.00;"/>
+				<Point Pos = "28.20;-79.23;3.00;"/>
+			</Sound>
+			<Sound IgorId = "167" File = "a_crickets.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" Grounded = "1" Pos = "95.83;-14.23;0.18;">
+				<Point Pos = "121.14;-15.69;0.30;"/>
+				<Point Pos = "120.09;-25.52;0.41;"/>
+				<Point Pos = "97.71;-24.06;0.30;"/>
+				<Point Pos = "103.36;-19.46;0.36;"/>
+				<Point Pos = "123.02;-45.81;0.43;"/>
+			</Sound>
+			<Sound IgorId = "168" File = "a_crickets.wav" Volume = "1.00" MinPeriod = "6.000000" MaxPeriod = "8.000000" Height = "0.01" MaxPlays = "-1" Grounded = "1" Pos = "63.03;-146.05;-4.05;">
+				<Point Pos = "75.00;-146.05;-4.05;"/>
+				<Point Pos = "79.67;-115.02;-4.05;"/>
+				<Point Pos = "75.27;-133.87;-4.05;"/>
+				<Point Pos = "85.49;-129.81;-4.05;"/>
+			</Sound>
+			<Sound IgorId = "174" File = "v_f18_fb.wav" Volume = "1.00" MinPeriod = "40.000000" MaxPeriod = "60.000000" MaxPlays = "-1" DisableProp = "1" Pos = "146.61;-78.82;38.01;">
+				<Point Pos = "-127.49;-66.27;0.00;"/>
+				<Point Pos = "144.13;-167.50;-4.00;"/>
+				<Point Pos = "-96.26;-1.57;0.00;"/>
+				<Point Pos = "-55.11;104.69;3.90;"/>
+				<Point Pos = "173.59;97.26;-49.01;"/>
+				<Point Pos = "71.47;-165.04;-49.01;"/>
+			</Sound>
+			<Sound IgorId = "175" File = "v_747_fb.wav" Volume = "1.00" MinPeriod = "60.000000" MaxPeriod = "80.000000" MaxPlays = "-1" DisableProp = "1" Pos = "-29.74;-210.12;36.03;">
+				<Point Pos = "-56.82;31.48;36.03;"/>
+				<Point Pos = "-3.16;63.53;36.03;"/>
+				<Point Pos = "163.70;37.06;36.03;"/>
+				<Point Pos = "75.10;-66.00;36.03;"/>
+				<Point Pos = "139.86;-165.17;36.03;"/>
+			</Sound>
+			<Sound IgorId = "176" File = "a_crickets.wav" Volume = "1.00" MinPeriod = "3.000000" MaxPeriod = "4.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "42.56;-92.59;5.31;">
+				<Point Pos = "33.29;-78.39;3.01;"/>
+			</Sound>
+			<Sound IgorId = "177" File = "a_crickets.wav" Volume = "1.00" MinPeriod = "3.000000" MaxPeriod = "4.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "42.61;-124.64;5.31;">
+				<Point Pos = "42.51;-112.39;5.30;"/>
+				<Point Pos = "42.51;-102.02;5.30;"/>
+				<Point Pos = "40.27;-95.29;5.30;"/>
+				<Point Pos = "39.14;-83.80;3.00;"/>
+				<Point Pos = "32.42;-80.71;3.00;"/>
+				<Point Pos = "25.69;-77.63;3.00;"/>
+				<Point Pos = "21.49;-72.58;0.00;"/>
+				<Point Pos = "15.04;-66.98;0.00;"/>
+				<Point Pos = "45.59;-78.19;0.00;"/>
+				<Point Pos = "54.00;-78.47;0.00;"/>
+			</Sound>
+			<Sound IgorId = "178" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "42.69;-126.57;5.31;">
+				<Point Pos = "42.30;-121.19;5.31;"/>
+				<Point Pos = "42.71;-117.00;5.31;"/>
+				<Point Pos = "42.28;-111.81;5.31;"/>
+				<Point Pos = "42.43;-107.25;5.31;"/>
+				<Point Pos = "42.66;-103.45;5.31;"/>
+			</Sound>
+			<Sound IgorId = "179" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "39.51;-98.29;5.31;">
+				<Point Pos = "38.33;-89.22;3.81;"/>
+				<Point Pos = "38.60;-84.81;3.01;"/>
+				<Point Pos = "38.05;-80.95;3.01;"/>
+				<Point Pos = "38.97;-93.09;5.31;"/>
+				<Point Pos = "40.44;-95.59;5.31;"/>
+				<Point Pos = "31.19;-79.36;3.01;"/>
+				<Point Pos = "34.86;-79.97;3.00;"/>
+			</Sound>
+			<Sound IgorId = "180" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "13.59;-21.18;0.01;">
+				<Point Pos = "10.72;-18.51;0.01;"/>
+				<Point Pos = "7.17;-15.31;0.01;"/>
+				<Point Pos = "3.76;-11.51;0.01;"/>
+				<Point Pos = "0.49;-8.57;3.01;"/>
+				<Point Pos = "-4.88;-3.30;4.01;"/>
+			</Sound>
+			<Sound IgorId = "181" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "36.86;1.80;0.01;">
+				<Point Pos = "34.02;4.78;0.01;"/>
+				<Point Pos = "30.58;8.02;0.01;"/>
+				<Point Pos = "27.70;11.14;0.01;"/>
+				<Point Pos = "23.69;12.96;0.01;"/>
+				<Point Pos = "20.48;15.90;0.00;"/>
+				<Point Pos = "16.70;14.67;0.00;"/>
+			</Sound>
+			<Sound IgorId = "182" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "5.18;36.15;4.01;">
+				<Point Pos = "4.09;33.19;4.01;"/>
+				<Point Pos = "3.77;29.25;4.01;"/>
+				<Point Pos = "3.93;24.09;4.01;"/>
+				<Point Pos = "4.02;18.56;4.01;"/>
+			</Sound>
+			<Sound IgorId = "184" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "7.71;47.77;4.01;">
+				<Point Pos = "7.87;44.02;4.01;"/>
+				<Point Pos = "8.14;39.77;4.01;"/>
+				<Point Pos = "8.18;35.45;4.01;"/>
+				<Point Pos = "8.27;30.89;1.61;"/>
+				<Point Pos = "1.82;14.41;4.00;"/>
+				<Point Pos = "-5.19;12.45;4.00;"/>
+				<Point Pos = "1.82;8.53;4.00;"/>
+				<Point Pos = "8.49;25.51;0.00;"/>
+				<Point Pos = "8.16;19.93;0.00;"/>
+			</Sound>
+			<Sound IgorId = "186" File = "e_pebbles1.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "-7.74;13.46;4.01;">
+				<Point Pos = "-4.93;5.61;4.00;"/>
+				<Point Pos = "-2.13;-5.32;4.00;"/>
+				<Point Pos = "9.92;15.70;0.00;"/>
+				<Point Pos = "4.51;29.72;4.01;"/>
+				<Point Pos = "23.38;13.46;0.00;"/>
+				<Point Pos = "32.91;6.45;0.00;"/>
+			</Sound>
+			<Sound IgorId = "188" File = "e_flies.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" MaxPlays = "-1" DisableProp = "1" Pos = "20.35;12.16;2.01;">
+				<Point Pos = "5.76;13.85;2.01;"/>
+				<Point Pos = "6.21;17.74;2.01;"/>
+				<Point Pos = "10.30;12.03;2.01;"/>
+			</Sound>
+			<Sound IgorId = "189" File = "e_flies.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" MaxPlays = "-1" DisableProp = "1" Pos = "0.96;8.07;6.01;">
+				<Point Pos = "-2.03;9.50;6.01;"/>
+				<Point Pos = "2.97;11.32;6.01;"/>
+				<Point Pos = "-2.48;16.83;6.01;"/>
+			</Sound>
+			<Sound IgorId = "192" File = "e_pebbles.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "57.79;-20.73;3.66;">
+				<Point Pos = "58.03;-11.88;0.00;"/>
+				<Point Pos = "61.75;-12.23;0.00;"/>
+				<Point Pos = "63.50;-18.05;0.00;"/>
+				<Point Pos = "66.99;-22.83;-0.10;"/>
+				<Point Pos = "61.29;-24.92;0.00;"/>
+			</Sound>
+			<Sound IgorId = "193" File = "e_pebbles.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "94.82;97.50;2.30;">
+				<Point Pos = "100.00;98.32;2.73;"/>
+				<Point Pos = "103.89;92.42;2.85;"/>
+				<Point Pos = "104.80;87.75;2.84;"/>
+				<Point Pos = "97.60;91.77;2.40;"/>
+			</Sound>
+			<Sound IgorId = "194" File = "l_discombat.wav" Volume = "1.00" MinPeriod = "8.250000" MaxPeriod = "12.000000" MaxPlays = "-1" DisableProp = "1" Pos = "-57.65;118.69;17.01;">
+				<Point Pos = "14.71;118.43;17.01;"/>
+				<Point Pos = "80.29;114.04;17.01;"/>
+				<Point Pos = "-35.17;118.31;17.01;"/>
+				<Point Pos = "-9.00;118.51;17.01;"/>
+			</Sound>
+			<Sound IgorId = "195" File = "e_bees.wav" Volume = "1.00" MinPeriod = "6.000000" MaxPeriod = "8.000000" Height = "2.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "82.99;58.66;3.51;">
+				<Point Pos = "85.04;60.25;3.51;"/>
+				<Point Pos = "84.90;58.37;3.51;"/>
+				<Point Pos = "89.94;65.00;3.51;"/>
+				<Point Pos = "91.34;66.34;3.51;"/>
+				<Point Pos = "91.83;64.84;3.51;"/>
+				<Point Pos = "97.14;63.00;3.51;"/>
+			</Sound>
+			<Sound IgorId = "197" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "3.000000" MaxPeriod = "4.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "-2.43;-5.33;4.01;">
+				<Point Pos = "-7.86;5.97;4.00;"/>
+				<Point Pos = "-2.01;13.71;4.00;"/>
+				<Point Pos = "8.45;25.00;0.00;"/>
+				<Point Pos = "4.27;15.17;4.00;"/>
+				<Point Pos = "7.41;36.72;4.00;"/>
+			</Sound>
+			<Sound IgorId = "198" File = "l_discombat.wav" Volume = "1.00" MinPeriod = "8.250000" MaxPeriod = "10.000000" Height = "16.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "33.75;114.28;18.97;">
+				<Point Pos = "59.32;114.97;17.42;"/>
+				<Point Pos = "81.21;115.15;17.60;"/>
+				<Point Pos = "174.94;71.63;16.01;"/>
+				<Point Pos = "172.25;50.04;16.01;"/>
+				<Point Pos = "-73.32;23.73;19.91;"/>
+				<Point Pos = "-52.08;23.70;19.91;"/>
+			</Sound>
+			<Sound IgorId = "199" File = "w_phone.wav" Volume = "1.00" MinPeriod = "15.000000" MaxPeriod = "25.000000" Height = "2.01" MaxPlays = "-1" Grounded = "1" Pos = "80.03;22.94;2.28;">
+				<Point Pos = "-0.55;73.27;6.01;"/>
+				<Point Pos = "128.56;-92.05;2.01;"/>
+				<Point Pos = "-0.97;-239.79;10.11;"/>
+			</Sound>
+			<Sound IgorId = "200" File = "e_bark.wav" Volume = "0.50" MinPeriod = "16.000000" MaxPeriod = "24.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "31.19;-75.85;2.01;"/>
+			<Sound IgorId = "201" File = "e_metal_thump.wav" Volume = "0.50" MinPeriod = "12.000000" MaxPeriod = "24.000000" Height = "8.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "35.45;-84.27;11.01;"/>
+			<Sound IgorId = "202" File = "e_metal_thump1.wav" Volume = "0.60" MinPeriod = "12.000000" MaxPeriod = "24.000000" MaxPlays = "-1" DisableProp = "1" Pos = "-6.72;14.62;7.01;"/>
+			<Sound IgorId = "203" File = "e_flies.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "41.67;-99.87;5.31;">
+				<Point Pos = "41.05;-93.80;5.30;"/>
+				<Point Pos = "37.07;-77.91;3.00;"/>
+			</Sound>
+			<Sound IgorId = "204" File = "e_bees.wav" Volume = "1.00" MinPeriod = "6.000000" MaxPeriod = "10.000000" Height = "1.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "-31.58;-161.42;11.59;">
+				<Point Pos = "-31.58;-163.82;11.58;"/>
+				<Point Pos = "-31.38;-169.66;11.48;"/>
+				<Point Pos = "-31.45;-171.67;11.53;"/>
+				<Point Pos = "-31.38;-177.63;11.48;"/>
+				<Point Pos = "-31.58;-179.45;11.58;"/>
+				<Point Pos = "-31.45;-186.00;11.53;"/>
+				<Point Pos = "-31.51;-187.81;11.57;"/>
+			</Sound>
+			<Sound IgorId = "207" File = "jw_bark.wav" Volume = "0.40" MinPeriod = "12.000000" MaxPeriod = "20.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "14.55;11.32;0.01;"/>
+			<Sound IgorId = "347" File = "mortar_battery.wav" Volume = "1.00" MinPeriod = "30.000000" MaxPeriod = "50.000000" MaxPlays = "-1" DisableProp = "1" Pos = "167.10;43.20;13.01;">
+				<Point Pos = "166.85;68.81;13.01;"/>
+				<Point Pos = "174.90;52.48;13.01;"/>
+			</Sound>
+			<Sound IgorId = "348" File = "e_pebbles.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "6.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "11.36;-63.62;0.01;">
+				<Point Pos = "15.39;-67.56;0.00;"/>
+				<Point Pos = "20.15;-72.82;0.00;"/>
+				<Point Pos = "25.99;-77.91;3.00;"/>
+				<Point Pos = "32.39;-79.64;3.00;"/>
+				<Point Pos = "38.31;-84.16;3.00;"/>
+				<Point Pos = "39.05;-78.00;3.00;"/>
+				<Point Pos = "46.61;-77.83;0.00;"/>
+				<Point Pos = "52.60;-77.67;0.00;"/>
+			</Sound>
+			<Sound IgorId = "349" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "34.53;-77.75;3.01;">
+				<Point Pos = "39.62;-77.67;3.00;"/>
+				<Point Pos = "43.48;-77.58;0.40;"/>
+				<Point Pos = "48.99;-77.83;0.00;"/>
+				<Point Pos = "54.00;-77.50;0.00;"/>
+				<Point Pos = "57.53;-77.67;0.00;"/>
+			</Sound>
+			<Sound IgorId = "350" File = "e_papers_rustle.wav" Volume = "1.00" MinPeriod = "4.000000" MaxPeriod = "5.000000" Height = "0.01" MaxPlays = "-1" DisableProp = "1" Grounded = "1" Pos = "-8.19;0.87;4.01;">
+				<Point Pos = "-4.41;3.83;4.00;"/>
+				<Point Pos = "-8.93;7.11;4.00;"/>
+				<Point Pos = "-6.96;9.74;4.00;"/>
+				<Point Pos = "-2.52;12.12;4.00;"/>
+				<Point Pos = "0.85;14.75;4.00;"/>
+				<Point Pos = "3.89;13.93;4.00;"/>
+			</Sound>
+		</SoundList>
+		<RoomList>
+			<Room Room = "102" EnvTag = "32"/>
+			<Room Room = "104" EnvTag = "32"/>
+			<Room Room = "101" EnvTag = "32"/>
+			<Room Room = "103" EnvTag = "32"/>
+			<Room Room = "105" EnvTag = "32"/>
+			<Room Room = "306" EnvTag = "2"/>
+			<Room Room = "308" EnvTag = "2"/>
+			<Room Room = "301" EnvTag = "4"/>
+			<Room Room = "106" EnvTag = "32"/>
+			<Room Room = "304" EnvTag = "2"/>
+			<Room Room = "140" EnvTag = "33"/>
+			<Room Room = "303" EnvTag = "4"/>
+			<Room Room = "302" EnvTag = "4"/>
+			<Room Room = "107" EnvTag = "32"/>
+			<Room Room = "109" EnvTag = "32"/>
+			<Room Room = "206" EnvTag = "18"/>
+			<Room Room = "141" EnvTag = "33"/>
+			<Room Room = "305" EnvTag = "2"/>
+			<Room Room = "10" EnvTag = "32"/>
+			<Room Room = "207" EnvTag = "18"/>
+			<Room Room = "142" EnvTag = "33"/>
+			<Room Room = "11" EnvTag = "32"/>
+			<Room Room = "12" EnvTag = "32"/>
+			<Room Room = "15" EnvTag = "32"/>
+			<Room Room = "208" EnvTag = "18"/>
+			<Room Room = "13" EnvTag = "32"/>
+			<Room Room = "14" EnvTag = "32"/>
+			<Room Room = "800" EnvTag = "11"/>
+			<Room Room = "801" EnvTag = "11"/>
+			<Room Room = "16" EnvTag = "33"/>
+			<Room Room = "17" EnvTag = "33"/>
+			<Room Room = "130" EnvTag = "32"/>
+			<Room Room = "120" EnvTag = "32"/>
+			<Room Room = "18" EnvTag = "33"/>
+			<Room Room = "19" EnvTag = "33"/>
+			<Room Room = "121" EnvTag = "32"/>
+		</RoomList>
+		<ObjectList>
+			<Object IgorId = "377" ScriptId = "83" Name = "Bank Gun 1" File = "stationarygun.gun" Pos = "22.68;-171.97;11.30;" ObjectKind = "0" Lvl = "1" Facing = "4.73"/>
+			<Object IgorId = "378" ScriptId = "82" Name = "Bank Gun 2" File = "stationarygun.gun" Pos = "46.37;-171.89;11.30;" ObjectKind = "0" Lvl = "1" Facing = "4.71"/>
+		</ObjectList>
+		<StationList>
+			<Station IgorId = "216" Pos0 = "33.30;-171.06;5.30;" Pos1 = "35.97;-176.19;4.94;" Interior = "1" Platoon = "10"/>
+			<Station IgorId = "217" Pos0 = "35.69;-170.99;5.30;" Pos1 = "34.05;-176.33;5.11;" Interior = "1" Platoon = "10"/>
+			<Station IgorId = "218" Pos0 = "31.46;-164.91;5.30;" Pos1 = "35.28;-168.12;5.30;" Interior = "1" Priority = "2" Platoon = "10"/>
+			<Station IgorId = "219" Pos0 = "37.75;-164.98;5.30;" Pos1 = "33.51;-167.37;5.30;" Interior = "1" Priority = "2" Platoon = "10"/>
+			<Station IgorId = "220" Pos0 = "30.84;-156.57;5.30;" Pos1 = "33.51;-159.58;5.30;" Interior = "1" Priority = "3" Platoon = "10"/>
+			<Station IgorId = "221" Pos0 = "38.16;-151.58;5.30;" Pos1 = "41.96;-148.18;5.30;" Interior = "1" Priority = "5" Platoon = "10"/>
+			<Station IgorId = "375" Pos0 = "34.50;-154.88;11.30;" Pos1 = "34.62;-159.00;5.30;" Lvl = "1" Interior = "1"/>
+			<Station IgorId = "376" Pos0 = "41.79;-160.10;11.30;" Pos1 = "38.14;-160.10;5.30;" Lvl = "1" Interior = "1"/>
+			<Station IgorId = "381" Pos0 = "46.36;-171.93;11.30;" Pos1 = "46.28;-176.29;4.00;" Lvl = "1"/>
+			<Station IgorId = "382" Pos0 = "22.69;-172.01;11.30;" Pos1 = "22.77;-176.08;6.17;" Lvl = "1"/>
+			<Station IgorId = "388" Pos0 = "131.52;-43.67;10.00;" Pos1 = "128.18;-46.53;1.50;" Lvl = "1"/>
+			<Station IgorId = "389" Pos0 = "125.11;-33.10;11.40;" Pos1 = "121.09;-33.10;0.40;" Lvl = "1"/>
+			<Station IgorId = "390" Pos0 = "131.36;-23.15;10.00;" Pos1 = "128.77;-20.61;1.21;" Lvl = "1"/>
+			<Station IgorId = "394" Pos0 = "82.17;47.59;7.41;" Pos1 = "77.97;47.94;1.40;" Lvl = "1"/>
+		</StationList>
+		<DependencyList>
+			<Actor Tag = "Pilot" Id = "39"/>
+			<Actor Tag = "Sniper" Id = "47"/>
+			<Actor Tag = "Refugee 1" Id = "170"/>
+			<Actor Tag = "Refugee 2" Id = "171"/>
+			<Actor Tag = "Refugee 3" Id = "172"/>
+			<Actor Tag = "Refugee 4" Id = "173"/>
+			<Actor Tag = "Refugee 6" Id = "174"/>
+			<Actor Tag = "Refugee 5" Id = "175"/>
+			<Team Tag = "Team - Bank 1" Id = "14"/>
+			<Team Tag = "Team - Bank 2" Id = "15"/>
+			<Team Tag = "Team - Park 1" Id = "30"/>
+			<Team Tag = "Team - Park 2" Id = "31"/>
+			<Team Tag = "Team - Tank Support 1" Id = "49"/>
+			<Team Tag = "Team - Tank Support 2" Id = "50"/>
+			<Team Tag = "Team - Refugees 1" Id = "59"/>
+			<Team Tag = "Team - Refugees 2" Id = "60"/>
+			<Team Tag = "Team - Refugees 3" Id = "61"/>
+			<Team Tag = "Team - Patrol 3A" Id = "86"/>
+			<Team Tag = "Team - Patrol 3B" Id = "87"/>
+			<Team Tag = "Team - Reinforcements 1" Id = "97"/>
+			<Team Tag = "Team - Reinforcements 2" Id = "98"/>
+			<Team Tag = "Team - Sniper Revenge" Id = "119"/>
+			<Team Tag = "Team - Embassy Roof" Id = "123"/>
+			<Team Tag = "Team - Refugees 4" Id = "167"/>
+			<Team Tag = "Team - Refugees 5" Id = "168"/>
+			<Team Tag = "Team - Refugees 6" Id = "169"/>
+			<Platoon Tag = "Platoon - Tank Support" Id = "8"/>
+			<Platoon Tag = "Platoon - Bank" Id = "9"/>
+			<Platoon Tag = "Platoon - Reinforcements" Id = "96"/>
+			<Platoon Tag = "Platoon - Sniper Revenge" Id = "118"/>
+			<Platoon Tag = "Platoon - Bank 2" Id = "122"/>
+			<Platoon Tag = "Platoon - Refugees" Id = "163"/>
+			<Company Tag = "Enemies" Id = "2"/>
+			<Vehicle Tag = "Tank" Id = "48"/>
+			<Object Tag = "Bank Gun 2" Id = "82"/>
+			<Object Tag = "Bank Gun 1" Id = "83"/>
+		</DependencyList>
+		<Table>21</Table>
+		<ScriptCompiled>HAAAAAAANAAAAAAAABAAAAAAEHNGBDPFDHEHBGCHEHFDNCBDOCHHBGGHOAAAAAAAABAAAAAAEHNGCDPFDHEHBGCHEHFDNCBDOCHHBGGHPAAAAAAAABAAAAAAEHGGBDPFDHEHBGCHEHFDNCBDOCHHBGGHABAAAAAAABAAAAAAEHNGBDPFDHEHBGCHEHFDNCCDOCHHBGGHBBAAAAAAABAAAAAAEHNGCDPFDHEHBGCHEHFDNCCDOCHHBGGHCBAAAAAAABAAAAAAEHGGBDPFDHEHBGCHEHFDNCCDOCHHBGGHDBAAAAAABBAAAAAAPDNEJGDHDHJGPGOGACDEPGNGAHMGFGEHFGKCAAAAAAPPPPPPPPAAAAAAAAACAAAAAACAAAAAAAHCAAAAAAGAAAAAAAICAAAAAACAAAAAAAIAAAAAAAGAAAAAAALCAAAAAACAAAAAAAADAAAAAAGAAAAAAALCAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAGAAAAAAADAAAAAAACAAAAAAAJEAAAAAAHAAAAAAABDAAAAAAGAAAAAAAHAAAAAAACAAAAAAAMAAAAAAACAAAAAAAGFAAAAAAGAAAAAAAKBAAAAAACAAAAAAANAAAAAAACAAAAAAAHFAAAAAAGAAAAAAAKBAAAAAACAAAAAAAAGAAAAAAGAAAAAAALCAAAAAACAAAAAAAGHAAAAAAGAAAAAAALCAAAAAACAAAAAAADKAAAAAAGAAAAAAALCAAAAAACAAAAAAADKAAAAAAGAAAAAAAKEAAAAAAHAAAAAAAIBAAAAAAGAAAAAAAMAAAAAAACAAAAAAADFAAAAAAGAAAAAAALCAAAAAACAAAAAAACFAAAAAAGAAAAAAALCAAAAAAPPPPPPPPKAAAAAAAOAAAAAAAOAAAAAAACAAAAAAAAAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAFAAAAAAACAAAAAAAOAAAAAAAGAAAAAAAKBAAAAAACAAAAAAAAAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAHAAAAAAADAAAAAAAAAAAAKAEGAAAAAAAAAAAAAAAPPPPPPPPKAAAAAAAPAAAAAAAOAAAAAAACAAAAAAAAAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAFAAAAAAACAAAAAAAOAAAAAAAGAAAAAAAKBAAAAAACAAAAAAAAAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAHAAAAAAADAAAAAAAAAAAAKAEGAAAAAAAAAAAAAAAPPPPPPPPABAAAAAAJEAAAAAAPFAAAAAAAAAAAKAEEBAAAAAACAAAAAAAPAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAABAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAEAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAKAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAACBAAAAAADAAAAAAAAAAAAKAEGAAAAAAAAAAAAAAAHAAAAAAAIBAAAAAAGAAAAAAAMAAAAAAACAAAAAAACBAAAAAAGAAAAAAABAAAAAAACAAAAAAACBAAAAAADAAAAAAAAAAAAHBEGAAAAAAAAAAAAAAAPPPPPPPPCAAAAAAADAAAAAAANAAAAAAACAAAAAAAIAAAAAAAGAAAAAAAMCAAAAAACAAAAAAAADAAAAAAGAAAAAAAMCAAAAAACAAAAAAAEAAAAAAACAAAAAAABDAAAAAAGAAAAAAAKBAAAAAACAAAAAAAEAAAAAAACAAAAAAACDAAAAAAGAAAAAAAKBAAAAAACAAAAAAADAAAAAAACAAAAAAAADAAAAAAGAAAAAAALBAAAAAAPPPPPPPPABAAAAAAJEAAAAAAMAAAAAAAAAAAAKAEEBAAAAAAGAAAAAAANAAAAAAACAAAAAAABAAAAAAAHAAAAAAABAAAAAAACAAAAAAADAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAALAAAAAAADAAAAAAAAAAAAAAEGAAAAAAAAAAAAAAAGAAAAAAAOAAAAAAACAAAAAAAFAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAABBAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAAPPPPPPPPACAAAAAACAAAAAAADAAAAAAACAAAAAAAFAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAAPPPPPPPPABAAAAAAJEAAAAAAMAAAAAAAAAAAACBEKBAAAAAAGAAAAAAANAAAAAAACAAAAAAABAAAAAAAHAAAAAAABAAAAAAACAAAAAAACAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAJEAAAAAACAAAAAAAMAAAAAAADAAAAAAAAAAAACBEHAAAAAAAPEAAAAAACAAAAAAAJEAAAAAAHAAAAAAANEAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAGAAAAAAAHAAAAAAABAAAAAAACAAAAAAABAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAIAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAAGAAAAAAAOAAAAAAAPPPPPPPPCAAAAAAAFAAAAAAAACAAAAAAGAAAAAAANAAAAAAACAAAAAAAFAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAACAAAAAAAHAAAAAAABAAAAAAACAAAAAAABAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAANAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAPAAAAAAADAAAAAAANMMMMIPDGAAAAAAAAAAAAAAACAAAAAAAABAAAAAADAAAAAAAKJJJJJPDGAAAAAAAAAAAAAAACAAAAAAALAAAAAAADAAAAAAAAAAAAAAEGAAAAAAAAAAAAAAAGAAAAAAAOAAAAAAACAAAAAAAFAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAABBAAAAAADAAAAAAAGGGGGKPDGAAAAAAAAAAAAAAAPPPPPPPPAAAAAAAAHAAAAAAAEAAAAAAANAAAAAAAEAAAAAAAOAAAAAAAEAAAAAAAPAAAAAAAGAAAAAAABGAAAAAACAAAAAAAGAAAAAAADAAAAAAAAAAAAEAEGAAAAAAAAAAAAAAAPPPPPPPPCAAAAAAAGAAAAAAAEAAAAAAAEAAAAAAAABAAAAAAEAAAAAAABBAAAAAAEAAAAAAACBAAAAAAGAAAAAAABGAAAAAAPPPPPPPPPBAAAAAAJAAAAAAAGAAAAAAACAAAAAAADAAAAAAAGAAAAAAAEAAAAAAAHAAAAAAAIBAAAAAAGAAAAAAAMAAAAAAACAAAAAAADAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPFAAAAAAAGFAAAAAAOFAAAAAAAAAAACBECBAAAAAAGAAAAAAANAAAAAAACAAAAAAAHAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAMAAAAAAACAAAAAAAHFAAAAAAGAAAAAAAKBAAAAAACAAAAAAANAAAAAAACAAAAAAAGFAAAAAAGAAAAAAAKBAAAAAACAAAAAAAHAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAMAAAAAAADAAAAAAAAAAAAPBEGAAAAAAAAAAAAAAAPPPPPPPPFAAAAAAAHFAAAAAAOFAAAAAAAAAAACBECBAAAAAAGAAAAAAANAAAAAAACAAAAAAAHAAAAAAAHAAAAAAABAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAMAAAAAAACAAAAAAAGFAAAAAAGAAAAAAAKBAAAAAACAAAAAAANAAAAAAACAAAAAAAHFAAAAAAGAAAAAAAKBAAAAAACAAAAAAAHAAAAAAAGAAAAAAAEAAAAAAACAAAAAAAMAAAAAAADAAAAAAAAAAAAPBEGAAAAAAAAAAAAAAAPPPPPPPPNAAAAAAAADAAAAAACAAAAAAACAAAAAAACAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPCAAAAAAACBAAAAAAKAAAAAAACAAAAAAADAAAAAAADAAAAAAAAAAAAKAEGAAAAAAAAAAAAAAAHAAAAAAAIBAAAAAAGAAAAAAAMAAAAAAACAAAAAAADAAAAAAAGAAAAAAABAAAAAAACAAAAAAADAAAAAAADAAAAAAAAAAAACBEGAAAAAAAAAAAAAAAPPPPPPPPCAAAAAAAKAAAAAAADBAAAAAAGAAAAAAANAAAAAAACAAAAAAAKAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAHAAAAAAABAAAAAAACAAAAAAABAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAAAGAAAAAAGAAAAAAAMCAAAAAACAAAAAAAPAAAAAAACAAAAAAABGAAAAAAGAAAAAAAKBAAAAAACAAAAAAAOAAAAAAACAAAAAAACGAAAAAAGAAAAAAAKBAAAAAAGAAAAAAAOAAAAAAAPPPPPPPPIAAAAAAAPCAAAAAAFAAAAAAACAAAAAAAGHAAAAAAGAAAAAAAMCAAAAAACAAAAAAACBAAAAAACAAAAAAAHHAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPPBAAAAAAKHAAAAAACAAAAAAACAAAAAAADAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPCAAAAAAAHAAAAAAAABAAAAAAGAAAAAAANAAAAAAACAAAAAAAHAAAAAAADAAAAAAAAAAAAAAEGAAAAAAAAAAAAAAACAAAAAAADAAAAAAAHAAAAAAABAAAAAAACAAAAAAACAAAAAAACAAAAAAAAAAAAAAAHAAAAAAAMAAAAAAAGAAAAAAAMAAAAAAACAAAAAAABAAAAAAAGAAAAAAAEAAAAAAACAAAAAAANAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAAGAAAAAAAOAAAAAAAPPPPPPPPKAAAAAAAPBAAAAAAGAAAAAAACAAAAAAAEBAAAAAACAAAAAAAOBAAAAAAGAAAAAAAKBAAAAAACAAAAAAADBAAAAAACAAAAAAAPBAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPCAAAAAAAIAAAAAAAFAAAAAAACAAAAAAAABAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAABAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPKAAAAAAALDAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPCAAAAAAAJAAAAAAADAAAAAAACAAAAAAADAAAAAAAGAAAAAAAJDAAAAAAGAAAAAAAOAAAAAAAPPPPPPPPKAAAAAAAMDAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPKAAAAAAANDAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPKAAAAAAAHKAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPKAAAAAAAIKAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPKAAAAAAAJKAAAAAAFAAAAAAACAAAAAAAJAAAAAAADAAAAAAAAAAAAIPDGAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPABAAAAAAJEAAAAAAALAAAAAAAAAAACBEFAAAAAAACAAAAAAAKKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAFBAAAAAACAAAAAAALDAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPABAAAAAAJEAAAAAABLAAAAAAAAAAACBEFAAAAAAACAAAAAAALKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAGBAAAAAACAAAAAAAMDAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPABAAAAAAJEAAAAAACLAAAAAAAAAAACBEFAAAAAAACAAAAAAAMKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAHBAAAAAACAAAAAAANDAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPABAAAAAAJEAAAAAADLAAAAAAAAAAACBEFAAAAAAACAAAAAAANKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAIBAAAAAACAAAAAAAHKAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPABAAAAAAJEAAAAAAELAAAAAAAAAAACBEFAAAAAAACAAAAAAAPKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAJBAAAAAACAAAAAAAIKAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPABAAAAAAJEAAAAAAFLAAAAAAAAAAACBEFAAAAAAACAAAAAAAOKAAAAAAGAAAAAAAMCAAAAAACAAAAAAAKBAAAAAACAAAAAAAJKAAAAAAGAAAAAAAKBAAAAAAPPPPPPPPOBAAAAAALHAAAAAACAAAAAAACAAAAAAAGAAAAAAAGAAAAAAAEAAAAAAAPPPPPPPPCAAAAAAALAAAAAAAFAAAAAAAEAAAAAAADBAAAAAAGAAAAAAAEBAAAAAACAAAAAAAGAAAAAAACAAAAAAAJEAAAAAAGAAAAAAAEGAAAAAAPPPPPPPPCAAAAAAAMAAAAAAAEAAAAAAAGAAAAAAANAAAAAAACAAAAAAAHAAAAAAACAAAAAAAAAAAAAAAGAAAAAAADAAAAAAAPPPPPPPPCAAAAAAANAAAAAAACAAAAAAACAAAAAAAAAAAAAAAGAAAAAAAIDAAAAAAPPPPPPPPCAAAAAAAPAAAAAAACAAAAAAACAAAAAAABAAAAAAAGAAAAAAAIDAAAAAAPPPPPPPPCAAAAAAAABAAAAAACAAAAAAACAAAAAAACAAAAAAAGAAAAAAAIDAAAAAAPPPPPPPPCAAAAAAABBAAAAAADAAAAAAACAAAAAAADAAAAAAAGAAAAAAAIDAAAAAAGAAAAAAALDAAAAAA</ScriptCompiled>
+		<Objectives>
+			<Objective ScriptId = "0" Text = "1. Secure the bank" StringId = "22020103" AddPregame = "1"/>
+			<Objective ScriptId = "1" Text = "2. Investigate Crash Site" StringId = "22020104" AddPregame = "1"/>
+			<Objective ScriptId = "2" Text = "3. Go to Extraction Zone" StringId = "22020105" AddPregame = "1"/>
+			<Objective ScriptId = "3" Text = "X - Avoid Civilian Casualties" StringId = "22020106" AddPregame = "1"/>
+		</Objectives>
+	</Engine>
+	<Editor>
+		<ScriptSource>AAAAAAAALBAAAAAAEAAAAAAAEFFGBGNGOAAAAAAANAAAAAAAEFFGBGNGACNCACCEBGOGLGACBDBAPAAAAAAANAAAAAAAEFFGBGNGACNCACCEBGOGLGACCDBAHBAAAAAAABAAAAAAEFFGBGNGACNCACFENGCGBGDHDHJHACBDBAIBAAAAAAABAAAAAAEFFGBGNGACNCACFENGCGBGDHDHJHACCDBAOBAAAAAANAAAAAAAEFFGBGNGACNCACAFBGCHLGACBDBAPBAAAAAANAAAAAAAEFFGBGNGACNCACAFBGCHLGACCDBAGCAAAAAAMAAAAAAAEFFGBGNGACNCACAFJGMGPGEHBAICAAAAAAPAAAAAAAEFFGBGNGACNCACAFBGEHCHPGMGACBDBAJCAAAAAAPAAAAAAAEFFGBGNGACNCACAFBGEHCHPGMGACCDBAOCAAAAAANAAAAAAAEFFGBGNGACNCACDFOGJGAHFGCHBABDAAAAAAFBAAAAAAEFFGBGNGACNCACEFBGOGLGACDFFHAHAHPGCHEHACBDBACDAAAAAAFBAAAAAAEFFGBGNGACNCACEFBGOGLGACDFFHAHAHPGCHEHACCDBALDAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACBDBAMDAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACCDBANDAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACDDBAEFAAAAAANAAAAAAAEFFGBGNGACNCACCEBGOGLGACDDBAGFAAAAAAABAAAAAAEFFGBGNGACNCACAFBGEHCHPGMGACDDBEBAHFAAAAAAABAAAAAAEFFGBGNGACNCACAFBGEHCHPGMGACDDCEBABGAAAAAAHBAAAAAAEFFGBGNGACNCACCFFGJGOGGGPGCHDGFGNGFGOGEHDHACBDBACGAAAAAAHBAAAAAAEFFGBGNGACNCACCFFGJGOGGGPGCHDGFGNGFGOGEHDHACCDBACHAAAAAANAAAAAAAEFFGBGNGACNCACCEBGOGLGACEDBAFHAAAAAANAAAAAAAEFFGBGNGACNCACCEBGOGLGACFDBAHHAAAAAAFBAAAAAAEFFGBGNGACNCACDFOGJGAHFGCHACCFFGGHFGOGHGFGBALHAAAAAADBAAAAAAEFFGBGNGACNCACFENGCGBGDHDHJHACCFPGPGGGBAHKAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACEDBAIKAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACFDBAJKAAAAAABBAAAAAAEFFGBGNGACNCACCFFGGGFHHGFGFGDHACGDBANAAAAAAAHAAAAAAAAFMGBGEHPGPGOGDAAAAAAABBAAAAAAAFMGBGEHPGPGOGACNCACFENGCGBGDHDHJHBAEAAAAAAACBAAAAAAAFMGBGEHPGPGOGACNCACAFBGEHCHPGMGACBDBAFAAAAAAACBAAAAAAAFMGBGEHPGPGOGACNCACAFBGEHCHPGMGACCDBAGAAAAAAAABAAAAAAAFMGBGEHPGPGOGACNCACDFOGJGAHFGCHBAHAAAAAAAOAAAAAAAAFMGBGEHPGPGOGACNCACAFBGCHLGBAIAAAAAAAGBAAAAAAAFMGBGEHPGPGOGACNCACEFBGOGLGACDFFHAHAHPGCHEHBAJAAAAAAAOAAAAAAAAFMGBGEHPGPGOGACNCACCEBGOGLGBANAAAAAAAPAAAAAAAAFMGBGEHPGPGOGACNCACAFJGMGPGEHBAFFAAAAAACBAAAAAAAFMGBGEHPGPGOGACNCACAFBGEHCHPGMGACDDBAAGAAAAAAIBAAAAAAAFMGBGEHPGPGOGACNCACCFFGJGOGGGPGCHDGFGNGFGOGEHDHBAGHAAAAAAIBAAAAAAAFMGBGEHPGPGOGACNCACDFOGJGAHFGCHACCFFGGHFGOGHGFGBAKHAAAAAAABAAAAAAAFMGBGEHPGPGOGACNCACCEBGOGLGACCDBADKAAAAAACBAAAAAAAFMGBGEHPGPGOGACNCACCFFGGGFHHGFGFGDHBABAAAAAAAKAAAAAAAAFMGBGEHPGPGOGCFFGGGJEAAAAAAABAAAAAAAFMGBGJHFGCHHCDHACAHMGBGEHPGPGOGAACAAAAAAAHAAAAAAADEPGNGAHBGOGJHBAAAAAAAKAAAAAAAGECHJGFGOGEGMGJGFGDHBACAAAAAAAHAAAAAAAFEOGFGNGJGFGDHBAGFAAAAAAEAAAAAAAKFPGOGFGAAAAAAAAOAAAAAAAJEOGDHFGCHEHJGPGOGACKFPGOGFGBAMAAAAAAAPAAAAAAAFEIHEHCHBGDGEHJGPGOGACKFPGOGFGBAKEAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADADBALEAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADBDBAMEAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADCDBAOEAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADEDBAPEAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADFDBAAFAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADGDBABFAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADHDBAOFAAAAAAEBAAAAAADEPGOGEHJGOGFHFGACAFBGEHCHPGMGACKFPGOGFGBAPFAAAAAABBAAAAAAKFPGOGFGACNCACDECHBGDHIGACDFJGEHFGBAHGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACBDBAIGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACCDBAJGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACDDBAKGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACEDBALGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACFDBAMGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACGDBANGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACHDBAOGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACIDBAPGAAAAAALAAAAAAAHFJGOGEGACKFPGOGFGACJDBAAHAAAAAAMAAAAAAADFPGFHOGEGACKFPGOGFGACBDBABHAAAAAAMAAAAAAADFPGFHOGEGACKFPGOGFGACCDBAAIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADIDBABIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADJDBACIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDADBADIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDBDBAEIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDCDBAFIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDDDBAGIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDEDBAHIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDFDBAIIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDGDBAJIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDHDBAKIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDIDBALIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDJDBAMIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDADBANIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDBDBAOIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDCDBAPIAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDDDBAAJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDEDBABJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDFDBACJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDGDBADJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDHDBAEJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDIDBAFJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDJDBAGJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDADBAHJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDBDBAIJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDCDBAJJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDDDBAKJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDEDBALJAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDFDBAMJAAAAAAABAAAAAANEBGAHACDEFGOGEHCHBGMGACBECHFGBGBANJAAAAAAKAAAAAAANEBGAHACCEBGDHFGACADBAOJAAAAAAKAAAAAAANEBGAHACCEBGDHFGACBDBAPJAAAAAAKAAAAAAANEBGAHACCEBGDHFGACCDBAAKAAAAAAKAAAAAAANEBGAHACCEBGDHFGACDDBABKAAAAAADBAAAAAANEBGAHACCFFGDGPGOGACJEOGDHFGCHEHJGPGOGBACKAAAAAAEBAAAAAANEBGAHACCFFGDGPGOGACFEIHEHCHBGDGEHJGPGOGBAALAAAAAAKAAAAAAACFFGGGACBDACKFPGOGFGBABLAAAAAAKAAAAAAACFFGGGACCDACKFPGOGFGBACLAAAAAAKAAAAAAACFFGGGACDDACKFPGOGFGBADLAAAAAAKAAAAAAACFFGGGACEDACKFPGOGFGBAELAAAAAAKAAAAAAACFFGGGACFDACKFPGOGFGBAFLAAAAAAKAAAAAAACFFGGGACGDACKFPGOGFGBAJLAAAAAAIAAAAAAAKFPGOGFGACDDIDEDAAKLAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADDDBALLAAAAAAEAAAAAAAEFCFDDBEBAMLAAAAAAEAAAAAAAEFCFDDCEBANLAAAAAAEAAAAAAAEFCFDDDEBAOLAAAAAAEAAAAAAAEFCFBDBEBAPLAAAAAAEAAAAAAAEFCFBDCEBAAMAAAAAAEAAAAAAAEFCFBDDEBABMAAAAAAEAAAAAAAEFCFCDBEBACMAAAAAAEAAAAAAAEFCFCDCEBADMAAAAAAEAAAAAAAEFCFCDDEBAEMAAAAAAEAAAAAAAEFCFADBEBAFMAAAAAAEAAAAAAAEFCFADCEBAGMAAAAAAEAAAAAAAEFCFADDEBAHMAAAAAAKAAAAAAABEDHDHBGFHMGEHACADBGBAIMAAAAAAKAAAAAAABEDHDHBGFHMGEHACADCGBAJMAAAAAAKAAAAAAABEDHDHBGFHMGEHACADDGBAKMAAAAAAKAAAAAAABEDHDHBGFHMGEHACBDBGBALMAAAAAAKAAAAAAABEDHDHBGFHMGEHACBDCGBAMMAAAAAAKAAAAAAABEDHDHBGFHMGEHACBDDGBANMAAAAAAKAAAAAAABEDHDHBGFHMGEHACCDBGBAOMAAAAAAKAAAAAAABEDHDHBGFHMGEHACCDCGBAPMAAAAAAKAAAAAAABEDHDHBGFHMGEHACCDDGBAEAAAAAAAGAAAAAAAPECGKGFGDGEHCFAAAAAAKAAAAAAACEBGOGLGACHEFHOGACCDBADFAAAAAAKAAAAAAACEBGOGLGACHEFHOGACBDBAGLAAAAAAKAAAAAAAHFFGBGAHPGOGACDDHDHDAAHLAAAAAAKAAAAAAAHFFGBGAHPGOGACDDHDIDAAIDAAAAAAFAAAAAAABEDGEHPGCHABAAAAAAHAAAAAAACEBGOGLGACBDBEBABBAAAAAAHAAAAAAACEBGOGLGACBDCEBACBAAAAAAHAAAAAAACEBGOGLGACBDDEBADBAAAAAAHAAAAAAACEBGOGLGACBDEEBAEBAAAAAAHAAAAAAACEBGOGLGACCDBEBAFBAAAAAAHAAAAAAACEBGOGLGACDDBEBAGBAAAAAAHAAAAAAACEBGOGLGACBDFEBAJBAAAAAAKAAAAAAAFENGCGBGDHDHJHACBDBEBAKBAAAAAAKAAAAAAAFENGCGBGDHDHJHACBDCEBALBAAAAAAKAAAAAAAFENGCGBGDHDHJHACBDDEBAMBAAAAAAKAAAAAAAFENGCGBGDHDHJHACCDBEBANBAAAAAAKAAAAAAAFENGCGBGDHDHJHACCDCEBAACAAAAAAHAAAAAAAAFBGCHLGACBDBEBABCAAAAAAHAAAAAAAAFBGCHLGACBDCEBACCAAAAAAHAAAAAAAAFBGCHLGACBDDEBADCAAAAAAHAAAAAAAAFBGCHLGACCDBEBAECAAAAAAHAAAAAAAAFBGCHLGACCDCEBAFCAAAAAAHAAAAAAAAFBGCHLGACCDDEBAHCAAAAAAFAAAAAAAAFJGMGPGEHBAKCAAAAAAJAAAAAAAAFBGEHCHPGMGACBDBEBALCAAAAAAJAAAAAAAAFBGEHCHPGMGACBDCEBAMCAAAAAAJAAAAAAAAFBGEHCHPGMGACCDCEBANCAAAAAAJAAAAAAAAFBGEHCHPGMGACCDBEBAPCAAAAAAGAAAAAAADFOGJGAHFGCHBADDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACBDBEBAEDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACBDCEBAFDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACBDDEBAGDAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACBDBEBAHDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACCDBEBAIDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACCDCEBAJDAAAAAAPAAAAAAAEFBGOGLGACDFFHAHAHPGCHEHACCDDEBAKDAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACCDBEBAIFAAAAAALAAAAAAAAFBGEHCHPGMGACDDBEACBDBAJFAAAAAALAAAAAAAAFBGEHCHPGMGACDDBEACDDBAKFAAAAAALAAAAAAAAFBGEHCHPGMGACDDBEACCDBALFAAAAAALAAAAAAAAFBGEHCHPGMGACDDCEACBDBAMFAAAAAALAAAAAAAAFBGEHCHPGMGACDDCEACDDBANFAAAAAALAAAAAAAAFBGEHCHPGMGACDDCEACCDBADGAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACBDCEBAEGAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACBDDEBAFGAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACCDCEBAGGAAAAAABBAAAAAACFFGJGOGGGPGCHDGFGNGFGOGEHDHACCDDEBADHAAAAAAHAAAAAAACEBGOGLGACEDBEBAEHAAAAAAHAAAAAAACEBGOGLGACFDBEBAIHAAAAAAABAAAAAADFOGJGAHFGCHACCFFGGHFGOGHGFGACBDBAJHAAAAAAABAAAAAADFOGJGAHFGCHACCFFGGHFGOGHGFGACCDBAMHAAAAAAOAAAAAAAFENGCGBGDHDHJHACCFPGPGGGACBDBANHAAAAAAOAAAAAAAFENGCGBGDHDHJHACCFPGPGGGACCDBAOHAAAAAAOAAAAAAAFENGCGBGDHDHJHACCFPGPGGGACDDBAPHAAAAAAOAAAAAAAFENGCGBGDHDHJHACCFPGPGGGACEDBAKKAAAAAAJAAAAAAACFFGGGFHHGFGFGACBDBALKAAAAAAJAAAAAAACFFGGGFHHGFGFGACCDBAMKAAAAAAJAAAAAAACFFGGGFHHGFGFGACDDBANKAAAAAAJAAAAAAACFFGGGFHHGFGFGACEDBAOKAAAAAAJAAAAAAACFFGGGFHHGFGFGACGDBAPKAAAAAAJAAAAAAACFFGGGFHHGFGFGACFDBABAAAAAAAHAAAAAAAGFFGIGJGDGMGFGADAAAAAAEAAAAAAAEFBGOGLGBAEAAAAAAAJAAAAAAAPECGKGFGDGEHJGGHFGAAAAAAAAPAAAAAAADFFGDGFHCHFGACEHIGFGACCEBGOGLGBABAAAAAAABCAAAAAAJEOGGHFGDHEHJGHGBGEHFGACIEFGMGJGDGPGAHEHFGCHACDECHBGDHIGACDFJGEHFGBACAAAAAAAFBAAAAAAHEPGACEHPGACFEIHEHCHBGDGEHJGPGOGACKFPGOGFGBADAAAAAAANBAAAAAAIFACNCACBEGHPGJGEGACDEJGGHJGMGJGBGOGACDEBGDHFHBGMGEHJGFGDHBAHBAAAAAAEAAAAAAAAFMGBGOGAAAAAAAAPAAAAAAAAFMGBGOGACNCACAFBGEHCHPGMGACBDBABAAAAAAAPAAAAAAAAFMGBGOGACNCACAFBGEHCHPGMGACCDBACAAAAAAANAAAAAAAAFMGBGOGACNCACDFOGJGAHFGCHBADAAAAAAAMBAAAAAAAFMGBGOGACNCACEFBGOGLGACNGPGGHFGDHACEHPGACFENGCGBGDHDHJHBAEAAAAAAAOBAAAAAAAFMGBGOGACNCACEFBGOGLGACDFFHAHAHPGCHEHACEHPGACFENGCGBGDHDHJHBAFAAAAAAAIBAAAAAAAFMGBGOGACNCACCEBGOGLGACBEMGFGCHEHACEFFGBGNGACBDBAKAAAAAAAFAAAAAAAHEFHOGACCDBALAAAAAAAFAAAAAAAHEFHOGACBDBAMAAAAAAAEBAAAAAAAFMGBGOGACNCACIEBGMGGGACAFBGEHCHPGMGACBDBANAAAAAAAEBAAAAAAAFMGBGOGACNCACIEBGMGGGACAFBGEHCHPGMGACCDBAOAAAAAAAHBAAAAAAAFMGBGOGACNCACCFFGJGOGGGPGCHDGFGNGFGOGEHDHACCDBAPAAAAAAAHBAAAAAAAFMGBGOGACNCACCFFGJGOGGGPGCHDGFGNGFGOGEHDHACBDBACBAAAAAAHBAAAAAAAFMGBGOGACNCACDFOGJGAHFGCHHCDHACCFFGGHFGOGHGFGBADBAAAAAANAAAAAAAAFMGBGOGACNCACAFBGCHLGACCDBAEBAAAAAANAAAAAAAAFMGBGOGACNCACAFBGCHLGACBDBAFBAAAAAAFAAAAAAACFFGGGACBDBAGBAAAAAAFAAAAAAACFFGGGACCDBAHBAAAAAAFAAAAAAACFFGGGACDDBAIBAAAAAAFAAAAAAACFFGGGACEDBAJBAAAAAAFAAAAAAACFFGGGACFDBAKBAAAAAAFAAAAAAACFFGGGACGDBALBAAAAAAEBAAAAAAAFMGBGOGACNCACAFBGCHLGACAFBGEHCHPGMGACBDBAMBAAAAAAEBAAAAAAAFMGBGOGACNCACAFBGEHCHPGMGACAFBGCHLGACCDBAIAAAAAAAHAAAAAAADEPGFHOGEHFGCHAAAAAAAAFBAAAAAAOEPGACCEBGOGLGACBEMGFGCHEHACDEPGFHOGEHFGCHAABAAAAAAALBAAAAAAPECGKGFGDGEHJGGHFGDHACDEPGNGAHMGFGEHFGACDEPGFHOGEHFGCHAACAAAAAAANBAAAAAAEFBGOGLGACBGOGEGACDFFHAHAHPGCHEHACEGFGBGEGACDGPGFHOGEHFGCHAADAAAAAAABBAAAAAACGBGOGLGACEGFGBGEGACDGPGFHOGEHFGCHAAEAAAAAAAGBAAAAAACHFGJGOGGGPGCHDGFGNGFGOGEHDHACDGPGFHOGEHFGCHAAFAAAAAAAABAAAAAACHFGGGACEGFGBGEGACDGPGFHOGEHFGCHAAGAAAAAAAJBAAAAAAFGNGCGBGDHDHJHACCHPGPGGGACEGFGBGEGACDGPGFHOGEHFGCHAAHAAAAAAACBAAAAAAEGPGOGHCEHACAHBGEHIGACDGPGFHOGEHFGCHAAOAAAAAAAFAAAAAAAEFJGNGFGCHDAAAAAAAGBAAAAAAEFBGOGLGACBGOGEGACDFFHAHAHPGCHEHACEFJGNGFGCHAAFAAAAAAAOAAAAAAABGMGMGACEGFGBGEGACEHJGNGFGCHAAGAAAAAAALAAAAAAADHPGFHOGEGACEHJGNGFGCHAAHAAAAAAAPAAAAAAACGBGOGLGACEGFGBGEGACEHJGNGFGCHAAIAAAAAAANAAAAAAAFGIHEHCHBGDGEHACEHJGNGFGCHAAJAAAAAAACBAAAAAACHFGGGFHHGFGFGACEGFGBGEGACEHJGNGFGCHAAKAAAAAAADBAAAAAACHFGJGOGGGPGCHDGFGNGFGOGEHACEHJGNGFGCHAALAAAAAAAFAAAAAAAGECFJEDELEAAMAAAAAAAABAAAAAAEGPGOGHCEHACAHBGEHIGACEHJGNGFGCHAANAAAAAAAEBAAAAAACGBGOGLGACPGCGKGFGDGEHJGGHFGACEHJGNGFGCHAAPAAAAAAALBAAAAAAJGOGGHFGDHEHJGHGBGEHFGACPGCGKGFGDGEHJGGHFGACEHJGNGFGCHAAABAAAAAAHBAAAAAAFGIHEHCHBGDGEHACPGCGKGFGDGEHJGGHFGACEHJGNGFGCHAABBAAAAAANBAAAAAAOGPGACDGBGDHFHMGBGEHJGFGDHACPGCGKGFGDGEHJGGHFGACEHJGNGFGCHAACBAAAAAAKAAAAAAAEHBGOGLGACEHJGNGFGCHAAPPPPPPPPKCAAAAAAPPPPPPPPAAAAAAAAOAAAAAAAICAAAAAAAAAAAAAAHCAAAAAALCAAAAAAAAAAAAAAIAAAAAAALCAAAAAAAAAAAAAAADAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAJEAAAAAACAAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAGFAAAAAAKBAAAAAAAAAAAAAANAAAAAAAAAAAAAAAHFAAAAAALCAAAAAAAAAAAAAAAGAAAAAALCAAAAAAAAAAAAAAGHAAAAAALCAAAAAAAAAAAAAADKAAAAAAKEAAAAAAAAAAAAAADKAAAAAAMAAAAAAACAAAAAAABAAAAAAALCAAAAAAAAAAAAAADFAAAAAALCAAAAAAAAAAAAAACFAAAAAACAAAAAAAAAAAAAAABDAAAAAABAAAAAAAIBAAAAAAEAAAAAAAJEOGJGEHPPPPPPPPKAAAAAAAAAAAAAAAOAAAAAAAEAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAOAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAKAECAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAJBAAAAAACEBGOGLGACBEMGFGCHEHACICEGFGBGEHIGACCGBGOGLGACBDJCPPPPPPPPKAAAAAAAAAAAAAAAPAAAAAAAEAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAOAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAKAECAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAJBAAAAAACEBGOGLGACBEMGFGCHEHACICEGFGBGEHIGACCGBGOGLGACCDJCPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAPFAAAAAAAAAAAAAAAAAAAKAEIAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAIPDAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAKAEMAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAHBEBAAAAAAAAAAAAAAAIBAAAAAALBAAAAAAJEOGGHFGDHEHJGHGBGEHFGACDGCHBGDHIGACPGCGKGFGDGEHJGGHFGPPPPPPPPCAAAAAAAAAAAAAAADAAAAAAAFAAAAAAAMCAAAAAAAAAAAAAAIAAAAAAAMCAAAAAAAAAAAAAAADAAAAAAKBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABDAAAAAAKBAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACDAAAAAALBAAAAAAAAAAAAAADAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAFCAAAAAAEFBGOGLGACBGOGEGACEFBGOGLGACDFFHAHAHPGCHEHACIGFGBGEGACEHPGACFENGCGBGDHDHJHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAKAEGAAAAAAANAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAAAAEOAAAAAAAMAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAABAAAAAAACAAAAAAAMAAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAABAAAAAAAAAAAAAAAFAAAAAAAIAAAAAAAGFJGDGEHPGCHJHBCPPPPPPPPACAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAIPDAAAAAAAAABAAAAAABEMGMGACFGOGFGNGJGFGDHACEGFGBGEGPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAACBEGAAAAAAANAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAMAAAAAAACAAAAAAACAAAAAAAMAAAAAAACAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAIPDOAAAAAAAHAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAABAAAAAAACAAAAAAAMAAAAAAACAAAAAAADAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAPEAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAACBEEAAAAAAANEAAAAAAAAAAAAAAJEAAAAAAFAAAAAAAMAAAAAAACAAAAAAAGAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAABAAAAAAAAAAAAAAAGAAAAAAACBAAAAAAFEIHEHCHBGDGEHACPGCGKGFGDGEHJGGHFGPDPPPPPPPPCAAAAAAAAAAAAAAAFAAAAAAAKAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAIPDMAAAAAAACAAAAAAADAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAIPDAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAANMMMMIPDAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAKJJJJJPDAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAAAAEOAAAAAAAMAAAAAAACAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAGGGGGKPDEAAAAAAADAAAAAAAMAAAAAAACAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAACAAAAAAAFAAAAAAAMAAAAAAACAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAABAAAAAAAAAAAAAAAFAAAAAAAOBAAAAAABGMGMGACFGOGFGNGJGFGDHACEGFGBGEGACNDACFGOGEGACNGJGDHDHJGPGOGPPPPPPPPAAAAAAAACAAAAAAABGAAAAAAAAAAAAAANAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAAGAAAAAAADHPGFHOGEGDHPPPPPPPPCAAAAAAAAAAAAAAAGAAAAAAABAAAAAAABGAAAAAAAAAAAAAAABAAAAAAAAAAAAAABBAAAAAAAAAAAAAACBAAAAAAAAAAAAAAKAAAAAAANGPGCHFGACDHPGFHOGEGPPPPPPPPPBAAAAAAAAAAAAAAJAAAAAAADAAAAAAAEAAAAAAAAAAAAAAADAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAADAAAAAAABAAAAAAAAAAAAAAAIBAAAAAALAAAAAAACEBGOGLGACBDACEGFGBGEGPPPPPPPPFAAAAAAAAAAAAAAAGFAAAAAAAAAAAAAAOFAAAAAAAAAAAAAAAAAAACBEGAAAAAAANAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAHFAAAAAAKBAAAAAAAAAAAAAANAAAAAAAAAAAAAAAGFAAAAAAEAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAPBECAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAHAAAAAAAEBAAAAAAAFBGEHCHPGMGACDDACDGPGOGEHJGOGFHFGDHACBEPPPPPPPPFAAAAAAAAAAAAAAAHFAAAAAAAAAAAAAAOFAAAAAAAAAAAAAAAAAAACBEGAAAAAAANAAAAAAAMAAAAAAACAAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAGFAAAAAAKBAAAAAAAAAAAAAANAAAAAAAAAAAAAAAHFAAAAAAEAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAPBECAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAHAAAAAAAEBAAAAAAAFBGEHCHPGMGACDDACDGPGOGEHJGOGFHFGDHACCEPPPPPPPPNAAAAAAAAAAAAAAAADAAAAAABAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAJAAAAAAAEHBGOGLGACEGFGBGEGPPPPPPPPCAAAAAAAAAAAAAAACBAAAAAAEAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAKAEMAAAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAACBEBAAAAAAAAAAAAAAAIBAAAAAACBAAAAAADEBGMGMGDHACJGOGACEHIGFGACEHBGOGLGBCPPPPPPPPCAAAAAAAAAAAAAAAKAAAAAAAHAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAIPDMAAAAAAACAAAAAAAAAAAAAAAMCAAAAAAAAAAAAAAAGAAAAAAKBAAAAAAAAAAAAAAPAAAAAAAAAAAAAAABGAAAAAAKBAAAAAAAAAAAAAAOAAAAAAAAAAAAAAACGAAAAAAOAAAAAAACAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAIBAAAAAADEBGMGMGDHACJGOGACCHFGJGOGGGPGCHDGFGNGFGOGEHDHBCPPPPPPPPIAAAAAAAAAAAAAAAPCAAAAAACAAAAAAAMCAAAAAAAAAAAAAAGHAAAAAAKBAAAAAAAAAAAAAACBAAAAAAAAAAAAAAHHAAAAAAAAAAAAAAABAAAAAADFOGJGAHFGCHHCDHACCFFGGHFGOGHGFGPPPPPPPPPBAAAAAAAAAAAAAAKHAAAAAABAAAAAAAEAAAAAAAAAAAAAAADAAAAAAAAAAAAAAALAAAAAAACEBGOGLGACCDACEGFGBGEGPPPPPPPPCAAAAAAAAAAAAAAAHAAAAAAAGAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAEMAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAIPDOAAAAAAACAAAAAAAAAAAAAAAMAAAAAAACAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAADAAAAAAAEBAAAAAACGBGOGLGACDGMGFGBGCHACPGCGKGFGDGEHJGGHFGPPPPPPPPKAAAAAAAAAAAAAAAPBAAAAAACAAAAAAAKBAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAOBAAAAAAKBAAAAAAAAAAAAAADBAAAAAAAAAAAAAAPBAAAAAAAAAAAAAAMAAAAAAAAFBGCHLGACEEFGGGFGOGDHFGPPPPPPPPCAAAAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAMAAAAAAAIGFGMGJGACFGIHEHCHBGDGEHPPPPPPPPKAAAAAAAAAAAAAAALDAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAOAAAAAAACFFGGGFHHGFGFGACBDACEGJGFGDHPPPPPPPPCAAAAAAAAAAAAAAAJAAAAAAACAAAAAAAJDAAAAAAAAAAAAAADAAAAAAAOAAAAAAAAAAAAAAAIBAAAAAADHAHFGDGJGBGMGACPGCGKGFGDGEHJGGHFGACGGBGJGMGFGEGPPPPPPPPKAAAAAAAAAAAAAAAMDAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACCDACEGJGFGDHPPPPPPPPKAAAAAAAAAAAAAAANDAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACDDACEGJGFGDHPPPPPPPPKAAAAAAAAAAAAAAAHKAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACEDACEGJGFGDHPPPPPPPPKAAAAAAAAAAAAAAAIKAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACFDACEGJGFGDHPPPPPPPPKAAAAAAAAAAAAAAAJKAAAAAACAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAIPDEAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACGDACEGJGFGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAAKKAAAAAAKBAAAAAAAAAAAAAAFBAAAAAAAAAAAAAALDAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACBDACCFFHOGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAABLAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAALKAAAAAAKBAAAAAAAAAAAAAAGBAAAAAAAAAAAAAAMDAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACCDACCFFHOGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAACLAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAAMKAAAAAAKBAAAAAAAAAAAAAAHBAAAAAAAAAAAAAANDAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACDDACCFFHOGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAADLAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAANKAAAAAAKBAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAHKAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACEDACCFFHOGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAELAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAAPKAAAAAAKBAAAAAAAAAAAAAAJBAAAAAAAAAAAAAAIKAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACFDACCFFHOGDHPPPPPPPPABAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAFLAAAAAAAAAAAAAAAAAAACBECAAAAAAAMCAAAAAAAAAAAAAAOKAAAAAAKBAAAAAAAAAAAAAAKBAAAAAAAAAAAAAAJKAAAAAAAAAAAAAAPAAAAAAACFFGGGFHHGFGFGDHACGDACCFFHOGDHPPPPPPPPOBAAAAAAAAAAAAAALHAAAAAABAAAAAAAEAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAADCAAAAAAFGNGCGBGDHDHJHACCHPGPGGGACDGMGFGBGCHACICMGPGHGJGDGACEGFGDGJGDHJGPGOGJCPPPPPPPPCAAAAAAAAAAAAAAALAAAAAAACAAAAAAAEBAAAAAAAAAAAAAADBAAAAAAEGAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAGAAAAAAAFEOEEEACJEEFPPPPPPPPCAAAAAAAAAAAAAAAMAAAAAAACAAAAAAANAAAAAAADAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAACHFGDHFGEHACAHBGEHIGPPPPPPPPCAAAAAAAAAAAAAAANAAAAAAABAAAAAAAIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAACGBGOGLGACPGCGKGFGDGEHJGGHFGPPPPPPPPCAAAAAAAAAAAAAAAPAAAAAAABAAAAAAAIDAAAAAAAAAAAAAABAAAAAAAAAAAAAAAFBAAAAAAJEOGGHFGDHEHJGHGBGEHFGACPGCGKGFGDGEHJGGHFGPPPPPPPPCAAAAAAAAAAAAAAAABAAAAAABAAAAAAAIDAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEBAAAAAAFGIHEHCHBGDGEHJGPGOGACPGCGKGFGDGEHJGGHFGPPPPPPPPCAAAAAAAAAAAAAAABBAAAAAACAAAAAAAIDAAAAAAAAAAAAAADAAAAAAALDAAAAAAAAAAAAAAHBAAAAAAOGPGACDGBGDHFHBGMGEHJGFGDHACPGCGKGFGDGEHJGGHFG</ScriptSource>
+	</Editor>
+</MissionFile>

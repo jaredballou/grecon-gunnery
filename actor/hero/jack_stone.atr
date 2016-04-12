@@ -1,0 +1,51 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>specialist</FolderName>
+	<ActorName>Adolph Vice</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>vice_head.rsb</ModelFace>
+	<BlinkFaceName>vice_head_blink.rsb</BlinkFaceName>
+	<DesertModelFace>vice_head.rsb</DesertModelFace>
+	<DesertBlinkFace>vice_head_blink.rsb</DesertBlinkFace>
+	<JungleModelFace>vice_head.rsb</JungleModelFace>
+	<JungleBlinkFace>vice_head_blink.rsb</JungleBlinkFace>
+	<KitPath>hero\vice</KitPath>
+	<ModelName>vice.chr</ModelName>
+	<LOD2>vice.chr</LOD2>
+	<LOD3>vice.chr</LOD3>
+	<DesertLOD1>vice.chr</DesertLOD1>
+	<DesertLOD2>vice.chr</DesertLOD2>
+	<DesertLOD3>vice.chr</DesertLOD3>
+	<JungleLOD1>vice.chr</JungleLOD1>
+	<JungleLOD2>vice.chr</JungleLOD2>
+	<JungleLOD3>vice.chr</JungleLOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+	<HeadAttachmentNormalLOD>att_ger_helmet7.qob</HeadAttachmentNormalLOD>
+	<HeadAttachment>att_ger_helmet7.qob</HeadAttachment>
+	<HeadAttachmentJungleLOD>att_ger_helmet7.qob</HeadAttachmentJungleLOD>
+	<NeckAttachmentNormalLOD></NeckAttachmentNormalLOD>
+	<NeckAttachment></NeckAttachment>
+	<NeckAttachmentJungleLOD></NeckAttachmentJungleLOD>
+	<LeftThighAttachmentNormalLOD></LeftThighAttachmentNormalLOD>
+	<LeftThighAttachment></LeftThighAttachment>
+	<LeftThighAttachmentJungleLOD></LeftThighAttachmentJungleLOD>
+	<RightThighAttachmentNormalLOD></RightThighAttachmentNormalLOD>
+	<RightThighAttachment></RightThighAttachment>
+	<RightThighAttachmentJungleLOD></RightThighAttachmentJungleLOD>
+	<LowSpineAttachmentNormalLOD></LowSpineAttachmentNormalLOD>
+	<SpineLowAttachment></SpineLowAttachment>
+	<LowSpineAttachmentJungleLOD></LowSpineAttachmentJungleLOD>
+	<MidSpineAttachmentNormalLOD>att_ger_kit1.qob</MidSpineAttachmentNormalLOD>
+	<SpineMidAttachment>att_ger_kit1.qob</SpineMidAttachment>
+	<MidSpineAttachmentJungleLOD>att_ger_kit1.qob</MidSpineAttachmentJungleLOD>
+	<DoPhysicsHead>1</DoPhysicsHead>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>	
+</ActorFile>
+
+

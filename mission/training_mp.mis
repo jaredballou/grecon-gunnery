@@ -1,0 +1,109 @@
+<MissionFile>
+	<VersionNumber>2.000000</VersionNumber>
+	<Shell>
+		<Environment>training.env</Environment>
+		<MapShots>training_mp_shots.rsb</MapShots>
+		<MapName>Training</MapName>
+		<MapNameId>38797312</MapNameId>
+		<RecommendedGameTypes>4 to 16</RecommendedGameTypes>
+		<RecommendedGameTypesID>38797318</RecommendedGameTypesID>
+		<MapSize>1</MapSize>
+		<Name/>
+		<NameId>38797313</NameId>
+		<GameTypes>1</GameTypes>
+		<Points>1</Points>
+		<Bases>1</Bases>
+		<CentralArea>1</CentralArea>
+	</Shell>
+	<Engine>
+		<Wind>0.5</Wind>
+		<LocationText>Ft. Bragg, NC</LocationText>
+		<LocationId>38797314</LocationId>
+		<DateText>March 15, 2008</DateText>
+		<DateId>38797315</DateId>
+		<TimeText>13:00</TimeText>
+		<TimeId>38797316</TimeId>
+		<BriefingWaveFile/>
+		<BriefingText/>
+		<BriefingId>38797317</BriefingId>
+		<BriefingCycleImage/>
+		<BriefingImage/>
+		<BriefingImageX>0</BriefingImageX>
+		<BriefingImageY>0</BriefingImageY>
+		<WeatherIndex>0</WeatherIndex>
+		<HeroFile/>
+		<ZoneList>
+			<Zone IgorId = "1" ScriptId = "0" Name = "Map Base 0" Pos0 = "10.65;-27.42;-0.18;" Pos1 = "16.18;-32.19;-0.58;" Facing = "1.74" Base = "0"/>
+			<Zone IgorId = "2" ScriptId = "1" Name = "Map Base 1" Pos0 = "-30.31;28.25;0.00;" Pos1 = "-24.19;24.07;0.00;" Facing = "4.96" Base = "1"/>
+			<Zone IgorId = "3" ScriptId = "2" Name = "Map Base 2" Pos0 = "-40.16;-6.13;0.00;" Pos1 = "-33.90;-11.06;0.00;" Facing = "1.13" Base = "2"/>
+			<Zone IgorId = "4" ScriptId = "3" Name = "Map Base 3" Pos0 = "12.43;15.96;0.00;" Pos1 = "18.55;13.87;0.00;" Base = "3"/>
+			<Zone IgorId = "5" ScriptId = "4" Name = "Map Central Area" Pos0 = "-24.29;16.25;0.00;" Pos1 = "-2.20;-7.77;0.00;" CentralArea = "1"/>
+			<Zone IgorId = "8" ScriptId = "7" Name = "Map Point 00" Pos0 = "-18.61;30.80;0.00;" Pos1 = "-18.61;30.80;0.00;" Facing = "4.99" Point = "0"/>
+			<Zone IgorId = "9" ScriptId = "8" Name = "Map Point 01" Pos0 = "16.01;-25.23;0.11;" Pos1 = "16.01;-25.23;0.11;" Point = "1"/>
+			<Zone IgorId = "10" ScriptId = "9" Name = "Map Point 02" Pos0 = "-35.33;-23.14;0.00;" Pos1 = "-35.33;-23.14;0.00;" Facing = "5.89" Point = "2"/>
+			<Zone IgorId = "11" ScriptId = "10" Name = "Map Point 03" Pos0 = "14.66;14.76;0.00;" Pos1 = "14.66;14.76;0.00;" Point = "3"/>
+			<Zone IgorId = "12" ScriptId = "11" Name = "Map Point 04" Pos0 = "11.33;-4.14;0.00;" Pos1 = "11.53;-4.14;0.00;" Facing = "1.54" Point = "4"/>
+			<Zone IgorId = "13" ScriptId = "12" Name = "Map Point 05" Pos0 = "-22.64;-10.91;0.00;" Pos1 = "-22.64;-10.91;0.00;" Point = "5"/>
+			<Zone IgorId = "14" ScriptId = "13" Name = "Map point 06" Pos0 = "-27.42;14.91;0.00;" Pos1 = "-27.42;14.91;0.00;" Facing = "4.74" Point = "6"/>
+			<Zone IgorId = "15" ScriptId = "14" Name = "Map Point 07" Pos0 = "5.23;19.84;0.00;" Pos1 = "5.23;19.84;0.00;" Point = "7"/>
+			<Zone IgorId = "16" ScriptId = "15" Name = "Map Point 08" Pos0 = "-12.94;-17.62;0.00;" Pos1 = "-12.94;-17.62;0.00;" Facing = "4.82" Point = "8"/>
+			<Zone IgorId = "17" ScriptId = "16" Name = "Map Point 09" Pos0 = "-12.16;7.12;0.00;" Pos1 = "-11.96;7.12;0.00;" Facing = "1.57" Point = "9"/>
+			<Zone IgorId = "18" ScriptId = "17" Name = "Map Point 10" Pos0 = "9.74;7.32;1.60;" Pos1 = "9.74;7.32;1.60;" Lvl = "1" Facing = "4.71" Point = "10"/>
+			<Zone IgorId = "19" ScriptId = "18" Name = "Map Point 11" Pos0 = "-17.26;-11.88;3.40;" Pos1 = "-17.26;-11.88;3.40;" Lvl = "1" Point = "11"/>
+			<Zone IgorId = "20" ScriptId = "19" Name = "Map Point 12" Pos0 = "-12.26;19.92;3.40;" Pos1 = "-12.26;19.92;3.40;" Lvl = "1" Point = "12"/>
+			<Zone IgorId = "21" ScriptId = "20" Name = "Map Point 13" Pos0 = "7.94;17.12;3.40;" Pos1 = "8.14;16.92;3.40;" Lvl = "1" Facing = "4.77" Point = "13"/>
+			<Zone IgorId = "22" ScriptId = "21" Name = "Map point 14" Pos0 = "9.74;-7.08;3.40;" Pos1 = "9.74;-7.08;3.40;" Lvl = "1" Facing = "5.50" Point = "14"/>
+			<Zone IgorId = "23" ScriptId = "22" Name = "Map Point 15" Pos0 = "-28.06;4.12;3.40;" Pos1 = "-28.06;4.12;3.40;" Lvl = "1" Facing = "1.50" Point = "15"/>
+			<Zone IgorId = "24" ScriptId = "23" Name = "Map point 16" Pos0 = "-33.46;1.12;1.00;" Pos1 = "-33.46;1.12;1.00;" Lvl = "1" Facing = "1.70" Point = "16"/>
+			<Zone IgorId = "25" ScriptId = "24" Name = "Map Point 17" Pos0 = "9.74;-2.08;3.40;" Pos1 = "9.74;-2.08;3.40;" Lvl = "1" Facing = "1.65" Point = "17"/>
+			<Zone IgorId = "26" ScriptId = "25" Name = "Map Point 18" Pos0 = "-22.66;8.92;0.00;" Pos1 = "-22.66;8.92;0.00;" Facing = "4.78" Point = "18"/>
+			<Zone IgorId = "27" ScriptId = "26" Name = "Map Point 19" Pos0 = "-0.26;9.12;0.00;" Pos1 = "-0.26;9.12;0.00;" Facing = "3.83" Point = "19"/>
+			<Zone IgorId = "28" ScriptId = "27" Name = "Map Point 20" Pos0 = "11.94;-10.68;0.00;" Pos1 = "11.94;-10.68;0.00;" Facing = "4.78" Point = "20"/>
+			<Zone IgorId = "29" ScriptId = "28" Name = "Map Point 21" Pos0 = "-32.86;-19.08;0.00;" Pos1 = "-32.86;-19.08;0.00;" Point = "21"/>
+			<Zone IgorId = "30" ScriptId = "29" Name = "Map Point 22" Pos0 = "-28.66;-15.08;0.00;" Pos1 = "-28.66;-15.08;0.00;" Facing = "3.18" Point = "22"/>
+			<Zone IgorId = "31" ScriptId = "30" Name = "Map point 23" Pos0 = "-33.32;7.77;0.00;" Pos1 = "-33.32;7.77;0.00;" Facing = "2.41" Point = "23"/>
+			<Zone IgorId = "32" ScriptId = "31" Name = "Map Point 24" Pos0 = "-32.32;-3.23;0.00;" Pos1 = "-32.32;-3.23;0.00;" Facing = "3.94" Point = "24"/>
+			<Zone IgorId = "33" ScriptId = "32" Name = "Map Point 25" Pos0 = "16.38;-1.43;0.00;" Pos1 = "16.38;-1.43;0.00;" Point = "25"/>
+			<Zone IgorId = "34" ScriptId = "33" Name = "Map Point 26" Pos0 = "16.38;9.97;0.00;" Pos1 = "16.38;9.97;0.00;" Point = "26"/>
+			<Zone IgorId = "35" ScriptId = "34" Name = "Map Point 27" Pos0 = "5.98;8.17;0.00;" Pos1 = "5.98;8.17;0.00;" Facing = "1.63" Point = "27"/>
+			<Zone IgorId = "36" ScriptId = "35" Name = "Map Point 28" Pos0 = "1.68;29.82;0.00;" Pos1 = "1.68;29.82;0.00;" Facing = "3.93" Point = "28"/>
+			<Zone IgorId = "37" ScriptId = "36" Name = "Map Point 29" Pos0 = "6.92;30.15;0.00;" Pos1 = "6.92;30.15;0.00;" Facing = "5.59" Point = "29"/>
+			<Zone IgorId = "38" ScriptId = "37" Name = "Map Point 30" Pos0 = "-25.71;31.04;0.00;" Pos1 = "-25.71;31.04;0.00;" Facing = "3.98" Point = "30"/>
+			<Zone IgorId = "39" ScriptId = "38" Name = "Map Point 31" Pos0 = "-38.24;2.09;0.00;" Pos1 = "-38.24;2.09;0.00;" Facing = "3.10" Point = "31"/>
+			<Zone IgorId = "40" ScriptId = "39" Name = "Map Point 32" Pos0 = "-32.23;15.84;0.00;" Pos1 = "-32.23;15.84;0.00;" Facing = "1.55" Point = "32"/>
+			<Zone IgorId = "41" ScriptId = "40" Name = "Map Point 33" Pos0 = "-2.36;22.36;0.00;" Pos1 = "-2.36;22.36;0.00;" Facing = "4.79" Point = "33"/>
+			<Zone IgorId = "42" ScriptId = "41" Name = "Map Point 34" Pos0 = "6.64;-4.74;0.00;" Pos1 = "6.64;-4.74;0.00;" Facing = "4.71" Point = "34"/>
+			<Zone IgorId = "43" ScriptId = "42" Name = "Map Point 35" Pos0 = "12.34;17.26;3.40;" Pos1 = "12.34;17.26;3.40;" Lvl = "1" Facing = "1.69" Point = "35"/>
+		</ZoneList>
+		<RoomList>
+			<Room Room = "101" EnvTag = "19"/>
+			<Room Room = "104" EnvTag = "19"/>
+			<Room Room = "225" EnvTag = "19"/>
+			<Room Room = "223" EnvTag = "19"/>
+			<Room Room = "108" EnvTag = "19"/>
+			<Room Room = "202" EnvTag = "19"/>
+			<Room Room = "210" EnvTag = "19"/>
+			<Room Room = "220" EnvTag = "19"/>
+			<Room Room = "226" EnvTag = "19"/>
+			<Room Room = "203" EnvTag = "19"/>
+			<Room Room = "105" EnvTag = "19"/>
+			<Room Room = "221" EnvTag = "19"/>
+			<Room Room = "224" EnvTag = "19"/>
+			<Room Room = "113" EnvTag = "19"/>
+			<Room Room = "207" EnvTag = "19"/>
+			<Room Room = "211" EnvTag = "19"/>
+			<Room Room = "227" EnvTag = "19"/>
+			<Room Room = "106" EnvTag = "19"/>
+			<Room Room = "222" EnvTag = "19"/>
+			<Room Room = "212" EnvTag = "19"/>
+			<Room Room = "109" EnvTag = "19"/>
+		</RoomList>
+		<DependencyList/>
+		<Table>37</Table>
+		<ScriptCompiled>AAAAAAAAAAAAAAAA</ScriptCompiled>
+		<Objectives/>
+	</Engine>
+	<Editor>
+		<ScriptSource>AAAAAAAAJCAAAAAAEAAAAAAAKFPGOGFGAAAAAAAAKAAAAAAANEBGAHACCEBGDHFGACADBABAAAAAAAKAAAAAAANEBGAHACCEBGDHFGACBDBACAAAAAAAKAAAAAAANEBGAHACCEBGDHFGACCDBADAAAAAAAKAAAAAAANEBGAHACCEBGDHFGACDDBAEAAAAAAAABAAAAAANEBGAHACDEFGOGEHCHBGMGACBECHFGBGBAHAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADADBAIAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADBDBAJAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADCDBAKAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADDDBALAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADEDBAMAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADFDBANAAAAAAAMAAAAAAANEBGAHACAHPGJGOGEHACADGDBAOAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADHDBAPAAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADIDBAABAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACADJDBABBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDADBACBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDBDBADBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDCDBAEBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDDDBAFBAAAAAAMAAAAAAANEBGAHACAHPGJGOGEHACBDEDBAGBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDFDBAHBAAAAAAMAAAAAAANEBGAHACAHPGJGOGEHACBDGDBAIBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDHDBAJBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDIDBAKBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACBDJDBALBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDADBAMBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDBDBANBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDCDBAOBAAAAAAMAAAAAAANEBGAHACAHPGJGOGEHACCDDDBAPBAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDEDBAACAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDFDBABCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDGDBACCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDHDBADCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDIDBAECAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACCDJDBAFCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDADBAGCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDBDBAHCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDCDBAICAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDDDBAJCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDEDBAKCAAAAAAMAAAAAAANEBGAHACAFPGJGOGEHACDDFDBAPPPPPPPPAAAAAAAA</ScriptSource>
+	</Editor>
+</MissionFile>

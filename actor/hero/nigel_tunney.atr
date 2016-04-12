@@ -1,0 +1,20 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>specialists</FolderName>
+	<ActorName>Ethan White</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>sealface.rsb</ModelFace>
+	<BlinkFaceName>sealface_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\ethan_white</KitPath>
+	<ModelName>Devgru.chr</ModelName>
+	<LOD2>Devgru.chr</LOD2>
+	<LOD3>Devgru.chr</LOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+</ActorFile>
+

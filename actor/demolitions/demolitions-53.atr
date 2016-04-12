@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>demolitions</FolderName>
+	<ActorName>Danny Wells</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>icg_wht_cmo_03.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_cmo_03_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_demo_wht_cmo_03.rsb</ActionFaceName>
+	<ShellFaceName>sface_demo_wht_cmo_03.rsb</ShellFaceName>
+	<KitPath>demolitions-seal</KitPath>
+	<ModelName>ica_us_demolition.chr</ModelName>
+	<LOD2>ica_us_demolition_a.chr</LOD2>
+	<LOD3>ica_us_demolition_b.chr</LOD3>
+	<Weapon>1</Weapon>
+	<Stamina>1</Stamina>
+	<Stealth>1</Stealth>
+	<Leadership>1</Leadership>
+</ActorFile>

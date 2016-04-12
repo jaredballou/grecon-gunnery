@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>us_rifleman</FolderName>
+	<ActorName>Grant Acosta</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_hsp_cmo_05.rsb</ModelFace>
+	<BlinkFaceName>icg_hsp_cmo_05_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_rfl_hsp_cmo_05.rsb</ActionFaceName>
+	<ShellFaceName>sface_rfl_hsp_cmo_05.rsb</ShellFaceName>
+	<KitPath>rifleman-seal</KitPath>
+	<ModelName>ica_us_rifleman.chr</ModelName>
+	<LOD2>ica_us_rifleman_a.chr</LOD2>
+	<LOD3>ica_us_rifleman_b.chr</LOD3>
+	<Weapon>1</Weapon>
+	<Stamina>1</Stamina>
+	<Stealth>1</Stealth>
+	<Leadership>2</Leadership>
+</ActorFile>

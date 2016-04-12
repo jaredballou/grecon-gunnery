@@ -1,0 +1,24 @@
+<ProjectileFile>
+	<VersionNumber>2.1</VersionNumber>
+	<Type>1</Type>
+	<NameToken/>
+	<ModelFileName>missile.qob</ModelFileName>
+	<Weight>1.8</Weight>
+	<AirResistanceConstant>0.25</AirResistanceConstant>
+	<DetonateOnImpact>1</DetonateOnImpact>
+	<DelayTime>10</DelayTime>
+	<InitialVelocity>1000</InitialVelocity>
+	<ExplosionDataVersion>1</ExplosionDataVersion>
+	<VisualExplosionType>2</VisualExplosionType>
+	<IsDirectional>FALSE</IsDirectional>
+	<DamageThroughWalls>30.0</DamageThroughWalls>
+	<BlastRadius>20.000000</BlastRadius>
+	<CombatCoefficient>
+		<CombatCoefficientIndex>0</CombatCoefficientIndex>
+		<CombatCoefficientV0>930.570984</CombatCoefficientV0>
+		<CombatCoefficientV1>-1.025430</CombatCoefficientV1>
+		<CombatCoefficientV2>0.000329</CombatCoefficientV2>
+		<CombatCoefficientK1>0.500000</CombatCoefficientK1>
+		<CombatCoefficientK2>0.002000</CombatCoefficientK2>
+	</CombatCoefficient>
+</ProjectileFile>

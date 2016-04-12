@@ -1,0 +1,23 @@
+<ProjectileFile>
+	<VersionNumber>2.1</VersionNumber>
+	<Type>0</Type>
+	<NameToken/>
+	<ModelFileName>203_round.qob</ModelFileName>
+	<Weight>0.23</Weight>
+	<AirResistanceConstant>0.0625</AirResistanceConstant>
+	<DetonateOnImpact>1</DetonateOnImpact>
+	<DelayTime>10</DelayTime>
+	<InitialVelocity>200</InitialVelocity>
+	<ExplosionDataVersion>1</ExplosionDataVersion>
+	<VisualExplosionType>1</VisualExplosionType>
+	<IsDirectional>FALSE</IsDirectional>
+	<BlastRadius>35.000000</BlastRadius>
+	<CombatCoefficient>
+		<CombatCoefficientIndex>0</CombatCoefficientIndex>
+		<CombatCoefficientV0>869.642857</CombatCoefficientV0>
+		<CombatCoefficientV1>37.767857</CombatCoefficientV1>
+		<CombatCoefficientV2>-12.276786</CombatCoefficientV2>
+		<CombatCoefficientK1>0.080000</CombatCoefficientK1>
+		<CombatCoefficientK2>0.001500</CombatCoefficientK2>
+	</CombatCoefficient>
+</ProjectileFile>

@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>specialists</FolderName>
+	<ActorName>Peter Bishop</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>mp_demo_01.rsb</ModelFace>
+	<BlinkFaceName>mp_demo_01_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\peter_bishop</KitPath>
+	<ModelName>bjb_Canada_JTF2_03.chr</ModelName>
+	<LOD2>bjb_Canada_JTF2_03_a.chr</LOD2>
+	<LOD3>bjb_Canada_JTF2_03_b.chr</LOD3>
+	<Weapon>7</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>1</Leadership>
+</ActorFile>

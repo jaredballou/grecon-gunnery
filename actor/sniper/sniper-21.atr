@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>1</ArmorLevel>
+	<FolderName>us_sniper</FolderName>
+	<ActorName>Matthew Musingo</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>icg_wht_snp_01.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_snp_01_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_snip_wht_cmo_01.rsb</ActionFaceName>
+	<ShellFaceName>sface_snip_wht_cmo_01.rsb</ShellFaceName>
+	<KitPath>sniper-seal</KitPath>
+	<ModelName>ica_us_sniper.chr</ModelName>
+	<LOD2>ica_us_sniper_a.chr</LOD2>
+	<LOD3>ica_us_sniper_b.chr</LOD3>
+	<Weapon>2</Weapon>
+	<Stamina>2</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>1</Leadership>
+</ActorFile>

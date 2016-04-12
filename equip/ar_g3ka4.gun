@@ -1,0 +1,63 @@
+<GunFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ModelFileName>ar_g3ka4.qob</ModelFileName>
+	<NameToken>WPN_G3KA4</NameToken>
+	<Weight>3.400000</Weight>
+	<MagazineCapacity>20</MagazineCapacity>
+	<MagazineWeight>0.455</MagazineWeight>
+	<MaxRange>475.000000</MaxRange>
+	<VelocityCoefficient0>930.571</VelocityCoefficient0>
+	<VelocityCoefficient1>-1.02543</VelocityCoefficient1>
+	<VelocityCoefficient2>0.000328571</VelocityCoefficient2>
+	<KillCoefficient1>0.75</KillCoefficient1>
+	<KillCoefficient2>0.002</KillCoefficient2>
+	<ReticuleTextureName>reticle_mp5.rsb</ReticuleTextureName>
+	<ReticulePipLeft>128</ReticulePipLeft>
+	<ReticulePipTop>0</ReticulePipTop>
+	<ReticulePipRight>140</ReticulePipRight>
+	<ReticulePipBottom>2</ReticulePipBottom>
+	<ReticuleBaseLeft>0</ReticuleBaseLeft>
+	<ReticuleBaseTop>0</ReticuleBaseTop>
+	<ReticuleBaseRight>126</ReticuleBaseRight>
+	<ReticuleBaseBottom>128</ReticuleBaseBottom>
+	<ReticulePipBaseOffset>8</ReticulePipBaseOffset>
+	<ReticulePipMaxOffset>240</ReticulePipMaxOffset>
+	<Selective>
+		<SelectiveOption RateOfFire = "800" RoundsPerPull = "1" StartSound = "w_hk21e_s.wav"/>
+		<SelectiveOption RateOfFire = "800" RoundsPerPull = "3" StartSound = "w_hk21e_3.wav"/>
+		<SelectiveOption RateOfFire = "800" IsFullAuto = "1" StartSound = "w_hk21e_b.wav" EndSound = "w_hk21e_s.wav"/>
+	</Selective>
+	<Recoil>50</Recoil>
+	<RunStandAccuracy>160</RunStandAccuracy>
+	<RunCrouchAccuracy>180</RunCrouchAccuracy>
+	<RunProneAccuracy>73</RunProneAccuracy>
+	<WalkStandAccuracy>19</WalkStandAccuracy>
+	<WalkCrouchAccuracy>30</WalkCrouchAccuracy>
+	<WalkProneAccuracy>73</WalkProneAccuracy>
+	<ShuffleStandAccuracy>12</ShuffleStandAccuracy>
+	<ShuffleCrouchAccuracy>22</ShuffleCrouchAccuracy>
+	<ShuffleProneAccuracy>19</ShuffleProneAccuracy>
+	<StationaryStandAccuracy>2</StationaryStandAccuracy>
+	<StationaryCrouchAccuracy>1</StationaryCrouchAccuracy>
+	<StationaryProneAccuracy>0</StationaryProneAccuracy>
+	<TurnBandVelocity1>0.5</TurnBandVelocity1>
+	<TurnBandMultiplier1>1</TurnBandMultiplier1>
+	<TurnBandVelocity2>1.5</TurnBandVelocity2>
+	<TurnBandMultiplier2>10</TurnBandMultiplier2>
+	<TurnBandVelocity3>3</TurnBandVelocity3>
+	<TurnBandMultiplier3>20</TurnBandMultiplier3>
+	<TurnBandVelocity4>8</TurnBandVelocity4>
+	<TurnBandMultiplier4>50</TurnBandMultiplier4>
+	<TurnBandVelocity5>100000</TurnBandVelocity5>
+	<TurnBandMultiplier5>100</TurnBandMultiplier5>
+	<StabilizationTime>0.2</StabilizationTime>
+	<WeaponMotionType>1</WeaponMotionType>
+	<HasUnderbarrelWeapon>0</HasUnderbarrelWeapon>
+	<Silenced>0</Silenced>
+	<ZoomSettings>
+		<Zoom>1</Zoom>
+		<Zoom>3</Zoom>
+	</ZoomSettings>
+	<MuzzleFlashScale>2</MuzzleFlashScale>
+	<TracerFrequency>3</TracerFrequency>
+</GunFile>

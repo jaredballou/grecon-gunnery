@@ -1,0 +1,23 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>1</ArmorLevel>
+	<ActorName>@MP_atr_snip</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>icg_hsp_snp_02.rsb</ModelFace>
+	<BlinkFaceName>icg_hsp_snp_02_blink.rsb</BlinkFaceName>
+	<DesertModelFace>icg_hsp_snp_02.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_hsp_snp_02_blink.rsb</DesertBlinkFace>
+	<JungleModelFace>icg_hsp_snp_02.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_hsp_snp_02_blink.rsb</JungleBlinkFace>
+	<KitPath>sniper-seal</KitPath>
+	<ModelName>avraham_arnan.chr</ModelName>
+	<LOD2>avraham_arnan_a.chr</LOD2>
+	<LOD3>avraham_arnan_b.chr</LOD3>
+	<Weapon>4</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>5</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

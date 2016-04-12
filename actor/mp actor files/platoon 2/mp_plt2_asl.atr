@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName/>
+	<ActorName>@MP_atr_asl</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>ice_rus_15.rsb</ModelFace>
+	<BlinkFaceName>ice_rus_15_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath/>
+	<ModelName>rs_south_foff.chr</ModelName>
+	<LOD2>rs_south_foff_a.chr</LOD2>
+	<LOD3>rs_south_foff_b.chr</LOD3>
+	<Weapon>5</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>4</Stealth>
+	<Leadership>4</Leadership>
+</ActorFile>

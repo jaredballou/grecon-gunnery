@@ -1,0 +1,23 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<ActorName>@MP_atr_rif</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>sealface.rsb</ModelFace>
+	<BlinkFaceName>sealface_blink.rsb</BlinkFaceName>
+	<DesertModelFace>sealface.rsb</DesertModelFace>
+	<DesertBlinkFace>sealface_blink.rsb</DesertBlinkFace>
+	<JungleModelFace>sealface.rsb</JungleModelFace>
+	<JungleBlinkFace>sealface_blink.rsb</JungleBlinkFace>
+	<KitPath>rifleman-seal</KitPath>
+	<ModelName>Devgru.chr</ModelName>
+	<LOD2>Devgru.chr</LOD2>
+	<LOD3>Devgru.chr</LOD3>
+	<Weapon>5</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>3</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<ActorName>@MP_atr_sup</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>icg_wht_cmo_01.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_cmo_01_blink.rsb</BlinkFaceName>
+	<DesertModelFace>icg_wht_cmo_01.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_wht_cmo_01_blink.rsb</DesertBlinkFace>
+	<JungleModelFace>icg_wht_cmo_01.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_wht_cmo_01_blink.rsb</JungleBlinkFace>
+	<KitPath>heavy-weapons-seal</KitPath>
+	<ModelName>BjB_Cap_UK_SAS.chr</ModelName>
+	<LOD2>BjB_Cap_UK_SAS.chr</LOD2>
+	<LOD3>BjB_Cap_UK_SAS.chr</LOD3>
+	<DesertLOD1>BjB_Cap_UK_SAS_Desert.chr</DesertLOD1>
+	<DesertLOD2>BjB_Cap_UK_SAS_Desert.chr</DesertLOD2>
+	<DesertLOD3>BjB_Cap_UK_SAS_Desert.chr</DesertLOD3>
+	<JungleLOD1>BjB_Cap_UK_SAS.chr</JungleLOD1>
+	<JungleLOD2>BjB_Cap_UK_SAS.chr</JungleLOD2>
+	<JungleLOD3>BjB_Cap_UK_SAS.chr</JungleLOD3>
+	<Weapon>4</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

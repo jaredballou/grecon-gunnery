@@ -1,0 +1,19 @@
+<TOEFile>
+	<VersionNumber>2.000000</VersionNumber>
+	<Company IgorId = "1" ScriptId = "0" Name = "_Company">
+		<Platoon IgorId = "2" ScriptId = "0" Name = "_Platoon">
+			<Team IgorId = "3" ScriptId = "0" Name = "_Alpha">
+				<Actor IgorId = "6" ScriptId = "0" Name = "_A Rifleman1" File = "rifleman-01.atr" Kit = "rifleman-01.kit" Owner = "0" />
+				<Actor IgorId = "7" ScriptId = "0" Name = "_A Rifleman2" File = "rifleman-02.atr" Kit = "rifleman-01.kit"/>
+				<Actor IgorId = "8" ScriptId = "0" Name = "_A Rifleman3" File = "rifleman-03.atr" Kit = "rifleman-01.kit"/>
+			</Team>
+			<Team IgorId = "4" ScriptId = "0" Name = "_Bravo">
+				<Actor IgorId = "9" ScriptId = "0" Name = "_A HvyWeapons1" File = "heavy-weapons-01.atr" Kit = "demolitions-01.kit"/>
+				<Actor IgorId = "10" ScriptId = "0" Name = "_A Demolitions1" File = "demolitions-01.atr" Kit = "demolitions-01.kit"/>
+			</Team>
+			<Team IgorId = "5" ScriptId = "0" Name = "_Charlie">
+				<Actor IgorId = "11" ScriptId = "0" Name = "_A Sniper1" File = "sniper-01.atr" Kit = "sniper-01.kit"/>
+			</Team>
+		</Platoon>
+	</Company>
+</TOEFile>

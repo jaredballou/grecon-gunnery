@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>1</ArmorLevel>
+	<ActorName>@MP_atr_snip</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>icg_blk_snp_01.rsb</ModelFace>
+	<BlinkFaceName>icg_blk_snp_01_blink.rsb</BlinkFaceName>
+	<DesertModelFace>icg_blk_snp_01_desert.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_blk_snp_01_blink_desert.rsb</DesertBlinkFace>
+	<JungleModelFace>icg_blk_snp_01.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_blk_snp_01_blink.rsb</JungleBlinkFace>
+	<KitPath>sniper-seal</KitPath>
+	<ModelName>ica_us_sniper.chr</ModelName>
+	<LOD2>ica_us_sniper_a.chr</LOD2>
+	<LOD3>ica_us_sniper_b.chr</LOD3>
+	<DesertLOD1>ica_us_sniper_desert.chr</DesertLOD1>
+	<DesertLOD2>ica_us_sniper_a_desert.chr</DesertLOD2>
+	<DesertLOD3>ica_us_sniper_b_desert.chr</DesertLOD3>
+	<JungleLOD1>ica_us_sniper.chr</JungleLOD1>
+	<JungleLOD2>ica_us_sniper_a.chr</JungleLOD2>
+	<JungleLOD3>ica_us_sniper_b.chr</JungleLOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

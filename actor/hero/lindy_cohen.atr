@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>specialist</FolderName>
+	<ActorName>Lars Weber</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>hrt_face_02.rsb</ModelFace>
+	<BlinkFaceName>hrt_face_02_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\lars_weber</KitPath>
+	<ModelName>lars_weber.chr</ModelName>
+	<LOD2>lars_weber_a.chr</LOD2>
+	<LOD3>lars_weber_b.chr</LOD3>
+	<Weapon>5</Weapon>
+	<Stamina>6</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>2</Leadership>
+</ActorFile>

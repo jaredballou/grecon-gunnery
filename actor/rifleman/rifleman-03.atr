@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>us_rifleman</FolderName>
+	<ActorName>Maurice Osborne</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_blk_cmo_03.rsb</ModelFace>
+	<BlinkFaceName>icg_blk_cmo_03_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_rfl_blk_cmo_03.rsb</ActionFaceName>
+	<ShellFaceName>sface_rfl_blk_cmo_03.rsb</ShellFaceName>
+	<KitPath>rifleman-seal</KitPath>
+	<ModelName>ica_us_rifleman.chr</ModelName>
+	<LOD2>ica_us_rifleman_a.chr</LOD2>
+	<LOD3>ica_us_rifleman_b.chr</LOD3>
+	<Weapon>2</Weapon>
+	<Stamina>2</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>2</Leadership>
+</ActorFile>

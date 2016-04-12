@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>us_rifleman</FolderName>
+	<ActorName>Kui He</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_asn_cmo_01.rsb</ModelFace>
+	<BlinkFaceName>icg_asn_cmo_01_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_rfl_asn_cmo_01.rsb</ActionFaceName>
+	<ShellFaceName>sface_rfl_asn_cmo_01.rsb</ShellFaceName>
+	<KitPath>hero\kui_he</KitPath>
+	<ModelName>ica_us_rifleman.chr</ModelName>
+	<LOD2>ica_us_rifleman_a.chr</LOD2>
+	<LOD3>ica_us_rifleman_b.chr</LOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+</ActorFile>

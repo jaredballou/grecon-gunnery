@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>specialists</FolderName>
+	<ActorName>Avraham Arnan</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>icg_hsp_snp_02.rsb</ModelFace>
+	<BlinkFaceName>icg_hsp_snp_02_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\avraham_arnan</KitPath>
+	<ModelName>avraham_arnan.chr</ModelName>
+	<LOD2>avraham_arnan_a.chr</LOD2>
+	<LOD3>avraham_arnan_b.chr</LOD3>
+	<Weapon>6</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>3</Leadership>
+</ActorFile>

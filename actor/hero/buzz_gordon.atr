@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>specialist</FolderName>
+	<ActorName>Bill Scott</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>icg_wht_snp_05.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_snp_05_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath>hero\bill_scott</KitPath>
+	<ModelName>bill_scott.chr</ModelName>
+	<LOD2>bill_scott.chr</LOD2>
+	<LOD3>bill_scott.chr</LOD3>
+	<Weapon>5</Weapon>
+	<Stamina>4</Stamina>
+	<Stealth>3</Stealth>
+	<Leadership>5</Leadership>
+</ActorFile>

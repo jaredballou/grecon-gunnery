@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<ActorName>Baron Von Suigenesis</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_wht_snp_02.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_snp_02_blink.rsb</BlinkFaceName>
+	<DesertModelFace>icg_wht_snp_02_desert.rsb</DesertModelFace>
+	<DesertBlinkFace>icg_wht_snp_02_blink_desert.rsb</DesertBlinkFace>
+	<JungleModelFace>icg_wht_snp_02.rsb</JungleModelFace>
+	<JungleBlinkFace>icg_wht_snp_02_blink.rsb</JungleBlinkFace>
+	<KitPath>hero\suigenesis</KitPath>
+	<ModelName>tigerstr_support.chr</ModelName>
+	<LOD2>tigerstr_support.chr</LOD2>
+	<LOD3>tigerstr_support.chr</LOD3>
+	<DesertLOD1>tigerstr_support_des.chr</DesertLOD1>
+	<DesertLOD2>tigerstr_support_des.chr</DesertLOD2>
+	<DesertLOD3>tigerstr_support_des.chr</DesertLOD3>
+	<JungleLOD1>tigerstr_support.chr</JungleLOD1>
+	<JungleLOD2>tigerstr_support.chr</JungleLOD2>
+	<JungleLOD3>tigerstr_support.chr</JungleLOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>

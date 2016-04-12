@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName/>
+	<ActorName>@MP_atr_hvywep</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>ice_rus_05.rsb</ModelFace>
+	<BlinkFaceName>ice_rus_05_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath/>
+	<ModelName>rs_winter_pkm.chr</ModelName>
+	<LOD2>rs_winter_pkm_a.chr</LOD2>
+	<LOD3>rs_winter_pkm_b.chr</LOD3>
+	<Weapon>8</Weapon>
+	<Stamina>8</Stamina>
+	<Stealth>8</Stealth>
+	<Leadership>8</Leadership>
+</ActorFile>

@@ -1,0 +1,61 @@
+<GunFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ModelFileName>iw_rifle_ak47.qob</ModelFileName>
+	<NameToken>WPN_AK47</NameToken>
+	<Weight>4.300000</Weight>
+	<MagazineCapacity>30</MagazineCapacity>
+	<MagazineWeight>0.827</MagazineWeight>
+	<MaxRange>373.000000</MaxRange>
+	<VelocityCoefficient0>713.071</VelocityCoefficient0>
+	<VelocityCoefficient1>-0.890357</VelocityCoefficient1>
+	<VelocityCoefficient2>0.000289286</VelocityCoefficient2>
+	<KillCoefficient1>0.2</KillCoefficient1>
+	<KillCoefficient2>0.004</KillCoefficient2>
+	<Selective>
+		<SelectiveOption RateOfFire = "600" RoundsPerPull = "1" StartSound = "w_ak47_ss.wav"/>
+		<SelectiveOption RateOfFire = "600" IsFullAuto = "1" StartSound = "w_ak47_sf.wav" EndSound = "w_ak47_rc.wav"/>
+	</Selective>
+	<Recoil>55</Recoil>
+	<RunStandAccuracy>160</RunStandAccuracy>
+	<RunCrouchAccuracy>180</RunCrouchAccuracy>
+	<RunProneAccuracy>73</RunProneAccuracy>
+	<WalkStandAccuracy>19</WalkStandAccuracy>
+	<WalkCrouchAccuracy>30</WalkCrouchAccuracy>
+	<WalkProneAccuracy>73</WalkProneAccuracy>
+	<ShuffleStandAccuracy>12</ShuffleStandAccuracy>
+	<ShuffleCrouchAccuracy>22</ShuffleCrouchAccuracy>
+	<ShuffleProneAccuracy>19</ShuffleProneAccuracy>
+	<StationaryStandAccuracy>2</StationaryStandAccuracy>
+	<StationaryCrouchAccuracy>1</StationaryCrouchAccuracy>
+	<StationaryProneAccuracy>0</StationaryProneAccuracy>
+	<TurnBandVelocity1>0.5</TurnBandVelocity1>
+	<TurnBandMultiplier1>1</TurnBandMultiplier1>
+	<TurnBandVelocity2>1.5</TurnBandVelocity2>
+	<TurnBandMultiplier2>10</TurnBandMultiplier2>
+	<TurnBandVelocity3>3</TurnBandVelocity3>
+	<TurnBandMultiplier3>20</TurnBandMultiplier3>
+	<TurnBandVelocity4>8</TurnBandVelocity4>
+	<TurnBandMultiplier4>50</TurnBandMultiplier4>
+	<TurnBandVelocity5>100000</TurnBandVelocity5>
+	<TurnBandMultiplier5>100</TurnBandMultiplier5>
+	<StabilizationTime>0.175</StabilizationTime>	<WeaponMotionType>1</WeaponMotionType>
+	<HasUnderbarrelWeapon>0</HasUnderbarrelWeapon>
+	<Silenced>0</Silenced>
+	<ZoomSettings>
+		<Zoom>1</Zoom>
+		<Zoom>2</Zoom>
+	</ZoomSettings>
+	<MuzzleFlashScale>2.5</MuzzleFlashScale>
+	<TracerFrequency>3</TracerFrequency>
+	<ReticuleTextureName>reticle_ar.rsb</ReticuleTextureName>
+	<ReticulePipLeft>33</ReticulePipLeft>
+	<ReticulePipTop>0</ReticulePipTop>
+	<ReticulePipRight>37</ReticulePipRight>
+	<ReticulePipBottom>2</ReticulePipBottom>
+	<ReticuleBaseLeft>0</ReticuleBaseLeft>
+	<ReticuleBaseTop>0</ReticuleBaseTop>
+	<ReticuleBaseRight>32</ReticuleBaseRight>
+	<ReticuleBaseBottom>32</ReticuleBaseBottom>
+	<ReticulePipBaseOffset>5</ReticulePipBaseOffset>
+	<ReticulePipMaxOffset>236</ReticulePipMaxOffset>
+</GunFile>

@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>3</ArmorLevel>
+	<FolderName>us_hvyweapons</FolderName>
+	<ActorName>Greg Lynch</ActorName>
+	<ClassName>support</ClassName>
+	<ModelFace>icg_blk_cmo_07.rsb</ModelFace>
+	<BlinkFaceName>icg_blk_cmo_07_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_sup_blk_cmo_07.rsb</ActionFaceName>
+	<ShellFaceName>sface_sup_blk_cmo_07.rsb</ShellFaceName>
+	<KitPath>heavy-weapons-seal</KitPath>
+	<ModelName>ica_us_support.chr</ModelName>
+	<LOD2>ica_us_support_a.chr</LOD2>
+	<LOD3>ica_us_support_b.chr</LOD3>
+	<Weapon>2</Weapon>
+	<Stamina>2</Stamina>
+	<Stealth>2</Stealth>
+	<Leadership>2</Leadership>
+</ActorFile>

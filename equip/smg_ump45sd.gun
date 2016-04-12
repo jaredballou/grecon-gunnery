@@ -1,0 +1,63 @@
+<GunFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ModelFileName>smg_ump45sd.qob</ModelFileName>
+	<NameToken>WPN_UMP45SD</NameToken>
+	<Weight>2.935000</Weight>
+	<MagazineCapacity>25</MagazineCapacity>
+	<MagazineWeight>0.455</MagazineWeight>
+	<MaxRange>210.169998</MaxRange>
+	<VelocityCoefficient0>261.419</VelocityCoefficient0>
+	<VelocityCoefficient1>-0.157221</VelocityCoefficient1>
+	<VelocityCoefficient2>-0.000161039</VelocityCoefficient2>
+	<KillCoefficient1>-0.5</KillCoefficient1>
+	<KillCoefficient2>0.015</KillCoefficient2>
+	<ReticuleTextureName>reticle_holosight.rsb</ReticuleTextureName>
+	<ReticulePipLeft>128</ReticulePipLeft>
+	<ReticulePipTop>0</ReticulePipTop>
+	<ReticulePipRight>140</ReticulePipRight>
+	<ReticulePipBottom>2</ReticulePipBottom>
+	<ReticuleBaseLeft>0</ReticuleBaseLeft>
+	<ReticuleBaseTop>0</ReticuleBaseTop>
+	<ReticuleBaseRight>126</ReticuleBaseRight>
+	<ReticuleBaseBottom>128</ReticuleBaseBottom>
+	<ReticulePipBaseOffset>4</ReticulePipBaseOffset>
+	<ReticulePipMaxOffset>240</ReticulePipMaxOffset>
+	<Selective>
+		<SelectiveOption RateOfFire = "580" RoundsPerPull = "1" StartSound = "w_umpsd_s.wav"/>
+		<SelectiveOption RateOfFire = "580" RoundsPerPull = "2" StartSound = "w_umpsd_2.wav"/>
+		<SelectiveOption RateOfFire = "580" IsFullAuto = "1" StartSound = "w_umpsd_b.wav" EndSound = "w_umpsd_s.wav"/>
+	</Selective>
+	<Recoil>49</Recoil>
+	<RunStandAccuracy>70</RunStandAccuracy>
+	<RunCrouchAccuracy>80</RunCrouchAccuracy>
+	<RunProneAccuracy>80</RunProneAccuracy>
+	<WalkStandAccuracy>17</WalkStandAccuracy>
+	<WalkCrouchAccuracy>14</WalkCrouchAccuracy>
+	<WalkProneAccuracy>80</WalkProneAccuracy>
+	<ShuffleStandAccuracy>13</ShuffleStandAccuracy>
+	<ShuffleCrouchAccuracy>18</ShuffleCrouchAccuracy>
+	<ShuffleProneAccuracy>18</ShuffleProneAccuracy>
+	<StationaryStandAccuracy>8</StationaryStandAccuracy>
+	<StationaryCrouchAccuracy>3</StationaryCrouchAccuracy>
+	<StationaryProneAccuracy>2</StationaryProneAccuracy>
+	<TurnBandVelocity1>0.75</TurnBandVelocity1>
+	<TurnBandMultiplier1>1</TurnBandMultiplier1>
+	<TurnBandVelocity2>2</TurnBandVelocity2>
+	<TurnBandMultiplier2>4.5</TurnBandMultiplier2>
+	<TurnBandVelocity3>4</TurnBandVelocity3>
+	<TurnBandMultiplier3>8</TurnBandMultiplier3>
+	<TurnBandVelocity4>10</TurnBandVelocity4>
+	<TurnBandMultiplier4>30</TurnBandMultiplier4>
+	<TurnBandVelocity5>100000</TurnBandVelocity5>
+	<TurnBandMultiplier5>100</TurnBandMultiplier5>
+	<StabilizationTime>0.22</StabilizationTime>
+	<WeaponMotionType>1</WeaponMotionType>
+	<HasUnderbarrelWeapon>0</HasUnderbarrelWeapon>
+	<Silenced>1</Silenced>
+	<ZoomSettings>
+		<Zoom>1</Zoom>
+		<Zoom>1.8</Zoom>
+	</ZoomSettings>
+	<MuzzleFlashScale>0.2</MuzzleFlashScale>
+	<TracerFrequency>3</TracerFrequency>
+</GunFile>

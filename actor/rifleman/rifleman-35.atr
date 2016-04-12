@@ -1,0 +1,17 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName>us_rifleman</FolderName>
+	<ActorName>Scott Curry</ActorName>
+	<ClassName>rifleman</ClassName>
+	<ModelFace>icg_wht_cmo_20.rsb</ModelFace>
+	<BlinkFaceName>icg_wht_cmo_20_blink.rsb</BlinkFaceName>
+	<ActionFaceName>aface_rfl_wht_cmo_20.rsb</ActionFaceName>
+	<ShellFaceName>sface_rfl_wht_cmo_20.rsb</ShellFaceName>
+	<KitPath>rifleman-seal</KitPath>
+	<ModelName>ica_us_rifleman.chr</ModelName>
+	<Weapon>1</Weapon>
+	<Stamina>1</Stamina>
+	<Stealth>1</Stealth>
+	<Leadership>2</Leadership>
+</ActorFile>

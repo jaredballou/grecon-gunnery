@@ -1,0 +1,19 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<FolderName/>
+	<ActorName>@MP_atr_snip</ActorName>
+	<ClassName>sniper</ClassName>
+	<ModelFace>ice_rus_01.rsb</ModelFace>
+	<BlinkFaceName>ice_rus_01_blink.rsb</BlinkFaceName>
+	<ActionFaceName/>
+	<ShellFaceName/>
+	<KitPath/>
+	<ModelName>rs_south_svd.chr</ModelName>
+	<LOD2>rs_south_svd_a.chr</LOD2>
+	<LOD3>rs_south_svd_b.chr</LOD3>
+	<Weapon>4</Weapon>
+	<Stamina>3</Stamina>
+	<Stealth>3</Stealth>
+	<Leadership>3</Leadership>
+</ActorFile>

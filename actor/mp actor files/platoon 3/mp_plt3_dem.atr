@@ -1,0 +1,29 @@
+<ActorFile>
+	<VersionNumber>1.000000</VersionNumber>
+	<ArmorLevel>2</ArmorLevel>
+	<ActorName>@MP_atr_demo</ActorName>
+	<ClassName>demolitions</ClassName>
+	<ModelFace>mp_demo_03.rsb</ModelFace>
+	<BlinkFaceName>mp_demo_03_blink.rsb</BlinkFaceName>
+	<DesertModelFace>mp_demo_03.rsb</DesertModelFace>
+	<DesertBlinkFace>mp_demo_03_blink.rsb</DesertBlinkFace>
+      <JungleModelFace>mp_demo_03.rsb</JungleModelFace>
+	<JungleBlinkFace>mp_demo_03_blink.rsb</JungleBlinkFace>
+	<KitPath>demolitions-seal</KitPath>
+	<ModelName>ica_us_demolition_desert.chr</ModelName>
+	<LOD2>ica_us_demolition_a_desert.chr</LOD2>
+	<LOD3>ica_us_demolition_b_desert.chr</LOD3>
+	<DesertLOD1>us_demo_six.chr</DesertLOD1>
+	<DesertLOD2>us_demo_six_a.chr</DesertLOD2>
+	<DesertLOD3>us_demo_six_b.chr</DesertLOD3>
+	<JungleLOD1>ica_us_demolition_cuba.chr</JungleLOD1>
+	<JungleLOD2>ica_us_demolition_a_cuba.chr</JungleLOD2>
+	<JungleLOD3>ica_us_demolition_b_cuba.chr</JungleLOD3>
+	<Weapon>4</Weapon>
+	<Stamina>5</Stamina>
+	<Stealth>3</Stealth>
+	<Leadership>2</Leadership>
+	<ScaleX>1.000000</ScaleX>
+	<ScaleY>1.000000</ScaleY>
+	<ScaleZ>1.000000</ScaleZ>
+</ActorFile>
