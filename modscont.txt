@@ -1,6 +1,6 @@
 // Mods Contents
 NAME        "Gunnery"
-AUTHOR      "Your Mother"
-SUPPORT     "www.poopdeck.org/gunnery"
-VERSION     "0.16"
+AUTHOR      "Jared Ballou"
+SUPPORT     "https://github.com/jaredballou/grecon-gunnery"
+VERSION     "0.17"
 MULTIPLAYER "Server-Client"

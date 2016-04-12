@@ -53,7 +53,7 @@
 	<StabilizationTime>0.19</StabilizationTime>
 	<WeaponMotionType>1</WeaponMotionType>
 	<HasUnderbarrelWeapon>1</HasUnderbarrelWeapon>
-	<UnderbarrelWeaponName>ag36.gun</UnderbarrelWeaponName>
+	<UnderbarrelWeaponName>gl_ag36.gun</UnderbarrelWeaponName>
 	<Silenced>0</Silenced>
 	<ZoomSettings>
 		<Zoom>1</Zoom>

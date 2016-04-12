@@ -1,6 +1,6 @@
 <GunFile>
 	<VersionNumber>1.000000</VersionNumber>
-	<ModelFileName>lmg_mag36.qob</ModelFileName>
+	<ModelFileName>lmg_amg36.qob</ModelFileName>
 	<NameToken>WPN_AMG36</NameToken>
 	<Weight>5.120000</Weight>
 	<MagazineCapacity>100</MagazineCapacity>
@@ -54,7 +54,7 @@
 	<StabilizationTime>0.19</StabilizationTime>
 	<WeaponMotionType>1</WeaponMotionType>
 	<HasUnderbarrelWeapon>1</HasUnderbarrelWeapon>
-	<UnderbarrelWeaponName>a_mg36.gun</UnderbarrelWeaponName>
+	<UnderbarrelWeaponName>gl_amg36.gun</UnderbarrelWeaponName>
 	<Silenced>0</Silenced>
 	<ZoomSettings>
 		<Zoom>1</Zoom>

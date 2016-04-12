@@ -1,6 +1,6 @@
 <GunFile>
 	<VersionNumber>1.000000</VersionNumber>
-	<ModelFileName>lmg_mag36.qob</ModelFileName>
+	<ModelFileName>lmg_amg36.qob</ModelFileName>
 	<NameToken>WPN_AG36</NameToken>
 	<Weight>0.000000</Weight>
 	<MagazineCapacity>1</MagazineCapacity>
