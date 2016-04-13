@@ -52,7 +52,7 @@
 	<StabilizationTime>0.17</StabilizationTime>
 	<WeaponMotionType>1</WeaponMotionType>
 	<HasUnderbarrelWeapon>1</HasUnderbarrelWeapon>
-	<UnderbarrelWeaponName>holo-m203.gun</UnderbarrelWeaponName>
+	<UnderbarrelWeaponName>gl_m203_m4-holo.gun</UnderbarrelWeaponName>
 	<Silenced>0</Silenced>
 	<ZoomSettings>
 		<Zoom>1</Zoom>
